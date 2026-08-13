@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="EstudiA - App de preparación para evaluaciones de admisión del Ecuador. Aprende Lengua, Matemáticas, Ciencias Naturales y Estudios Sociales de forma interactiva.">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>EstudiA - Prepárate para tu ingreso</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!-- ===== LOADING SCREEN ===== -->
+<div id="loading-screen" class="loading-screen">
+  <div class="loading-content">
+    <div class="loading-logo">
+      <span class="logo-icon">🎓</span>
+      <h1>EstudiA</h1>
+    </div>
+    <div class="loading-bar-wrap">
+      <div class="loading-bar" id="loading-bar"></div>
+    </div>
+    <p class="loading-text">Cargando tu aventura de aprendizaje...</p>
+  </div>
+</div>
+
+<!-- ===== WELCOME SCREEN ===== -->
+<div id="welcome-screen" class="screen hidden">
+  <div class="welcome-bg">
+    <div class="bubble b1"></div>
+    <div class="bubble b2"></div>
+    <div class="bubble b3"></div>
+  </div>
+  <div class="welcome-content">
+    <div class="app-logo">
+      <span class="logo-emoji">🎓</span>
+      <h1 class="app-title">EstudiA</h1>
+      <p class="app-subtitle">¡Prepárate para brillar en tu evaluación!</p>
+    </div>
+    <div class="level-selector">
+      <h2>¿A qué nivel vas a ingresar?</h2>
+      <div class="level-cards" id="level-cards">
+        <!-- rendered by JS -->
+      </div>
+    </div>
+    <p class="welcome-footer">🇪🇨 Currículo del Ministerio de Educación del Ecuador</p>
+  </div>
+</div>
+
+<!-- ===== HOME SCREEN ===== -->
+<div id="home-screen" class="screen hidden">
+  <header class="app-header">
+    <div class="header-left">
+      <span class="header-logo">🎓</span>
+      <span class="header-title">EstudiA</span>
+    </div>
+    <div class="header-right">
+      <button class="btn-icon" id="btn-stats" aria-label="Ver estadísticas">📊</button>
+      <button class="btn-icon" id="btn-change-level" aria-label="Cambiar nivel">⚙️</button>
+    </div>
+  </header>
+
+  <div class="home-content">
+    <!-- Progress Hero -->
+    <div class="progress-hero" id="progress-hero">
+      <div class="progress-hero-text">
+        <h2 id="greeting-text">¡Hola, Estudiante!</h2>
+        <p id="level-badge-text">4to EGB</p>
+      </div>
+      <div class="progress-circle-wrap">
+        <svg class="progress-circle" viewBox="0 0 100 100">
+          <circle class="progress-bg" cx="50" cy="50" r="40"/>
+          <circle class="progress-fill" id="overall-progress-circle" cx="50" cy="50" r="40" 
+                  stroke-dasharray="251.2" stroke-dashoffset="251.2"/>
+        </svg>
+        <div class="progress-circle-text">
+          <span id="overall-percent">0%</span>
+          <small>Dominio</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="quick-stats">
+      <div class="stat-card">
+        <span class="stat-icon">✅</span>
+        <div class="stat-info">
+          <span class="stat-value" id="stat-correct">0</span>
+          <span class="stat-label">Correctas</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">❌</span>
+        <div class="stat-info">
+          <span class="stat-value" id="stat-wrong">0</span>
+          <span class="stat-label">Errores</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🔥</span>
+        <div class="stat-info">
+          <span class="stat-value" id="stat-streak">0</span>
+          <span class="stat-label">Racha</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mode Selector -->
+    <div class="section-title">Modo de práctica</div>
+    <div class="mode-cards">
+      <button class="mode-card" id="mode-adaptive" onclick="App.startMode('adaptive')">
+        <span class="mode-icon">🎯</span>
+        <div class="mode-info">
+          <span class="mode-name">Adaptativo</span>
+          <span class="mode-desc">Refuerza tus debilidades</span>
+        </div>
+        <span class="mode-arrow">›</span>
+      </button>
+      <button class="mode-card" id="mode-easy" onclick="App.startMode('facil')">
+        <span class="mode-icon">🌱</span>
+        <div class="mode-info">
+          <span class="mode-name">Fácil</span>
+          <span class="mode-desc">Preguntas sencillas</span>
+        </div>
+        <span class="mode-arrow">›</span>
+      </button>
+      <button class="mode-card" id="mode-medium" onclick="App.startMode('intermedio')">
+        <span class="mode-icon">⚡</span>
+        <div class="mode-info">
+          <span class="mode-name">Intermedio</span>
+          <span class="mode-desc">Un reto moderado</span>
+        </div>
+        <span class="mode-arrow">›</span>
+      </button>
+      <button class="mode-card" id="mode-hard" onclick="App.startMode('dificil')">
+        <span class="mode-icon">🔥</span>
+        <div class="mode-info">
+          <span class="mode-name">Difícil</span>
+          <span class="mode-desc">Máximo desafío</span>
+        </div>
+        <span class="mode-arrow">›</span>
+      </button>
+      <button class="mode-card mode-card--review" id="mode-review" onclick="App.startMode('repaso')">
+        <span class="mode-icon">🔁</span>
+        <div class="mode-info">
+          <span class="mode-name">Repasar errores</span>
+          <span class="mode-desc">Supera tus debilidades</span>
+        </div>
+        <span class="mode-badge" id="review-badge">0</span>
+        <span class="mode-arrow">›</span>
+      </button>
+    </div>
+
+    <!-- Subjects -->
+    <div class="section-title">Por materia</div>
+    <div class="subject-grid" id="subject-grid">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+</div>
+
+<!-- ===== QUIZ SCREEN ===== -->
+<div id="quiz-screen" class="screen hidden">
+  <header class="quiz-header">
+    <button class="btn-back" id="btn-quiz-back" onclick="App.exitQuiz()">‹</button>
+    <div class="quiz-header-info">
+      <span id="quiz-subject-label">Lengua</span>
+      <span class="quiz-separator">·</span>
+      <span id="quiz-mode-label">Fácil</span>
+    </div>
+    <div class="quiz-progress-text">
+      <span id="quiz-current">1</span>/<span id="quiz-total">10</span>
+    </div>
+  </header>
+
+  <div class="quiz-progress-bar-wrap">
+    <div class="quiz-progress-bar" id="quiz-progress-bar"></div>
+  </div>
+
+  <!-- Score display -->
+  <div class="quiz-score-strip">
+    <span>✅ <span id="quiz-correct-count">0</span></span>
+    <span>❌ <span id="quiz-wrong-count">0</span></span>
+    <span>🏆 <span id="quiz-points">0</span> pts</span>
+  </div>
+
+  <!-- Question container -->
+  <div class="quiz-content" id="quiz-content">
+    <!-- rendered by JS -->
+  </div>
+
+  <!-- Answer feedback -->
+  <div class="answer-feedback hidden" id="answer-feedback">
+    <div class="feedback-icon" id="feedback-icon">✅</div>
+    <div class="feedback-title" id="feedback-title">¡Correcto!</div>
+    <div class="feedback-guia" id="feedback-guia"></div>
+    <div class="feedback-spelling" id="feedback-spelling" style="display:none;"></div>
+    <button class="btn-next" id="btn-next" onclick="App.nextQuestion()">Siguiente ›</button>
+  </div>
+</div>
+
+<!-- ===== RESULTS SCREEN ===== -->
+<div id="results-screen" class="screen hidden">
+  <div class="results-content">
+    <div class="results-trophy" id="results-trophy">🏆</div>
+    <h2 class="results-title" id="results-title">¡Ronda completada!</h2>
+    <p class="results-subtitle" id="results-subtitle"></p>
+
+    <div class="results-stats">
+      <div class="result-stat">
+        <span class="result-stat-icon">✅</span>
+        <span class="result-stat-val" id="res-correct">0</span>
+        <span class="result-stat-label">Correctas</span>
+      </div>
+      <div class="result-stat">
+        <span class="result-stat-icon">❌</span>
+        <span class="result-stat-val" id="res-wrong">0</span>
+        <span class="result-stat-label">Errores</span>
+      </div>
+      <div class="result-stat">
+        <span class="result-stat-icon">🏅</span>
+        <span class="result-stat-val" id="res-points">0</span>
+        <span class="result-stat-label">Puntos</span>
+      </div>
+      <div class="result-stat">
+        <span class="result-stat-icon">📈</span>
+        <span class="result-stat-val" id="res-percent">0%</span>
+        <span class="result-stat-label">Acierto</span>
+      </div>
+    </div>
+
+    <div class="results-message" id="results-message"></div>
+
+    <div class="results-actions">
+      <button class="btn-primary" onclick="App.playAgain()">🔄 Jugar de nuevo</button>
+      <button class="btn-secondary" onclick="App.goHome()">🏠 Inicio</button>
+      <button class="btn-review" id="btn-review-errors" onclick="App.reviewErrors()" style="display:none;">🔁 Repasar errores</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== STATS MODAL ===== -->
+<div id="stats-modal" class="modal hidden">
+  <div class="modal-overlay" onclick="App.closeStats()"></div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>📊 Mis estadísticas</h3>
+      <button class="btn-close" onclick="App.closeStats()">✕</button>
+    </div>
+    <div class="stats-body" id="stats-body">
+      <!-- rendered by JS -->
+    </div>
+    <button class="btn-danger" onclick="App.confirmReset()">🗑️ Reiniciar progreso</button>
+  </div>
+</div>
+
+<!-- ===== SUBJECT PICKER MODAL ===== -->
+<div id="subject-modal" class="modal hidden">
+  <div class="modal-overlay" onclick="App.closeSubjectModal()"></div>
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>📚 Elegir materia</h3>
+      <button class="btn-close" onclick="App.closeSubjectModal()">✕</button>
+    </div>
+    <div id="subject-modal-body">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+</div>
+
+<!-- ===== GUIDE OVERLAY ===== -->
+<div id="guide-overlay" class="guide-overlay hidden">
+  <div class="guide-card">
+    <div class="guide-header">
+      <span>💡 Guía de estudio</span>
+      <button onclick="App.closeGuide()">✕</button>
+    </div>
+    <div class="guide-text" id="guide-text"></div>
+  </div>
+</div>
+
+<!-- Toast notifications -->
+<div id="toast" class="toast hidden"></div>
+
+<script src="/js/storage.js"></script>
+<script src="/js/engine.js"></script>
+<script src="/js/questions.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>

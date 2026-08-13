@@ -1,0 +1,1520 @@
+{
+  "meta": {
+    "nivel": "4to EGB",
+    "subnivel": "Elemental",
+    "pais": "Ecuador",
+    "region": "Sierra / Costa / Amazonia / Galápagos",
+    "edad_referencia": "9-10 años",
+    "anio_lectivo": "2024-2025",
+    "version": "1.0.0",
+    "materias": ["lengua", "matematica", "ciencias_naturales", "estudios_sociales", "ingles"]
+  },
+  "lengua": {
+    "nombre": "Lengua y Literatura",
+    "icono": "📖",
+    "color": "#7C3AED",
+    "unidades": [
+      {
+        "id": "LL-U1",
+        "titulo": "La comunicación y el lenguaje",
+        "descripcion": "Reconoce y aplica los elementos de la comunicación en situaciones cotidianas.",
+        "preguntas": [
+          {
+            "id": "LL-U1-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Qué es la comunicación?",
+            "opciones": [
+              "Es el proceso de transmitir un mensaje entre un emisor y un receptor",
+              "Es solo hablar con otras personas",
+              "Es escribir cartas y correos",
+              "Es leer libros en silencio"
+            ],
+            "respuesta_correcta": 0,
+            "guia": "La comunicación es un proceso en el que intervienen: el EMISOR (quien envía el mensaje), el MENSAJE (la información), el CANAL (el medio), el RECEPTOR (quien recibe) y el CÓDIGO (el lenguaje usado).",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U1-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Quién es el EMISOR en la comunicación?",
+            "opciones": [
+              "La persona que recibe el mensaje",
+              "El medio por donde viaja el mensaje",
+              "La persona que envía o produce el mensaje",
+              "El idioma que se usa para comunicarse"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "El EMISOR es quien produce y envía el mensaje. Por ejemplo, cuando tu maestra explica la clase, ella es la emisora.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U1-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles son elementos de la comunicación? (Elige TODOS los correctos)",
+            "opciones": [
+              "Emisor",
+              "Televisión",
+              "Receptor",
+              "Mensaje",
+              "Recreo",
+              "Canal"
+            ],
+            "respuestas_correctas": [0, 2, 3, 5],
+            "guia": "Los elementos básicos de la comunicación son: Emisor, Receptor, Mensaje, Canal y Código. La televisión puede ser un canal, pero no es un elemento en sí mismo.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U1-Q004",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Completa el texto sobre la comunicación:",
+            "texto": "El ______ envía un ______ a través de un ______ para que lo reciba el ______.",
+            "espacios": ["emisor", "mensaje", "canal", "receptor"],
+            "posiciones": [0, 1, 2, 3],
+            "guia": "Recuerda el orden: EMISOR → MENSAJE → CANAL → RECEPTOR. Es como enviar una carta: tú la escribes (emisor), la carta es el mensaje, el correo es el canal, y tu amigo la recibe (receptor).",
+            "puntos": 20
+          },
+          {
+            "id": "LL-U1-Q005",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada elemento con su definición correcta:",
+            "pares": [
+              {"izquierda": "Emisor", "derecha": "Quien recibe el mensaje"},
+              {"izquierda": "Receptor", "derecha": "Quien envía el mensaje"},
+              {"izquierda": "Mensaje", "derecha": "La información transmitida"},
+              {"izquierda": "Canal", "derecha": "El medio de comunicación"}
+            ],
+            "pares_correctos": [
+              {"izquierda": "Emisor", "derecha": "Quien envía el mensaje"},
+              {"izquierda": "Receptor", "derecha": "Quien recibe el mensaje"},
+              {"izquierda": "Mensaje", "derecha": "La información transmitida"},
+              {"izquierda": "Canal", "derecha": "El medio de comunicación"}
+            ],
+            "guia": "Piensa en una llamada telefónica: TÚ eres el emisor, el TELÉFONO es el canal, tus PALABRAS son el mensaje, y quien te escucha es el receptor.",
+            "puntos": 20
+          }
+        ]
+      },
+      {
+        "id": "LL-U2",
+        "titulo": "La oración y sus partes",
+        "descripcion": "Identifica y construye oraciones con sujeto y predicado correctamente.",
+        "preguntas": [
+          {
+            "id": "LL-U2-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuáles son las dos partes principales de una oración?",
+            "opciones": [
+              "Sustantivo y adjetivo",
+              "Sujeto y predicado",
+              "Verbo y adverbio",
+              "Artículo y sustantivo"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Toda oración tiene dos partes: el SUJETO (de quién se habla) y el PREDICADO (lo que se dice del sujeto). Ejemplo: 'Los niños | juegan en el parque'. 'Los niños' = sujeto, 'juegan en el parque' = predicado.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U2-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "En la oración: 'La mariposa vuela sobre las flores'. ¿Cuál es el SUJETO?",
+            "opciones": [
+              "vuela",
+              "sobre las flores",
+              "La mariposa",
+              "vuela sobre las flores"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "El SUJETO responde a la pregunta: ¿QUIÉN? o ¿QUÉ? Si preguntamos ¿Quién vuela? → La mariposa. Por eso 'La mariposa' es el sujeto.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U2-Q003",
+            "tipo": "armar_oracion",
+            "dificultad": "facil",
+            "pregunta": "Arrastra las palabras para formar una oración correcta:",
+            "palabras": ["el", "pelota", "niño", "la", "patea"],
+            "oracion_correcta": "El niño patea la pelota",
+            "guia": "Una oración debe tener sentido completo. El SUJETO (El niño) + PREDICADO (patea la pelota). Recuerda que la primera palabra va con mayúscula.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U2-Q004",
+            "tipo": "armar_oracion",
+            "dificultad": "intermedio",
+            "pregunta": "Ordena las palabras para formar una oración con sentido:",
+            "palabras": ["Ecuador", "hermoso", "un", "es", "país"],
+            "oracion_correcta": "Ecuador es un país hermoso",
+            "guia": "Ecuador es nuestro país, ubicado en América del Sur. Tenemos 4 regiones: Sierra, Costa, Amazonia y Galápagos.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U2-Q005",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles de las siguientes son oraciones completas? (Tienen sujeto y predicado)",
+            "opciones": [
+              "El perro ladra fuerte.",
+              "Corriendo muy rápido.",
+              "María lee un libro interesante.",
+              "La lluvia.",
+              "Los estudiantes aprenden matemáticas."
+            ],
+            "respuestas_correctas": [0, 2, 4],
+            "guia": "Una oración completa necesita SUJETO + PREDICADO + tiene sentido por sí sola. 'Corriendo muy rápido' no tiene sujeto. 'La lluvia' no tiene predicado.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U2-Q006",
+            "tipo": "texto_libre",
+            "dificultad": "dificil",
+            "pregunta": "¿Cómo se llama la parte de la oración que nos dice DE QUIÉN se habla?",
+            "respuesta_correcta": "sujeto",
+            "respuestas_aceptadas": ["sujeto", "el sujeto"],
+            "guia": "El SUJETO es la parte de la oración de la que se habla o sobre la que se afirma algo. El núcleo del sujeto es siempre un SUSTANTIVO.",
+            "puntos": 10,
+            "tolerancia_tipeo": true
+          }
+        ]
+      },
+      {
+        "id": "LL-U3",
+        "titulo": "Clases de palabras: sustantivos, verbos y adjetivos",
+        "descripcion": "Clasifica y usa correctamente sustantivos, verbos y adjetivos.",
+        "preguntas": [
+          {
+            "id": "LL-U3-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Qué es un SUSTANTIVO?",
+            "opciones": [
+              "Es la acción que realiza alguien o algo",
+              "Es la palabra que nombra personas, animales, lugares o cosas",
+              "Es la palabra que describe cómo es algo",
+              "Es la palabra que indica tiempo"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Los SUSTANTIVOS nombran: personas (niño, maestra), animales (perro, cóndor), lugares (Ecuador, Quito) y cosas (mesa, libro). ¡El cóndor andino es el ave nacional del Ecuador!",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U3-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada palabra con su clase gramatical:",
+            "pares_correctos": [
+              {"izquierda": "correr", "derecha": "Verbo"},
+              {"izquierda": "hermoso", "derecha": "Adjetivo"},
+              {"izquierda": "Quito", "derecha": "Sustantivo"},
+              {"izquierda": "cantar", "derecha": "Verbo"},
+              {"izquierda": "verde", "derecha": "Adjetivo"},
+              {"izquierda": "montaña", "derecha": "Sustantivo"}
+            ],
+            "guia": "VERBO = acción (correr, cantar, saltar). SUSTANTIVO = nombre (Quito, montaña, libro). ADJETIVO = describe (hermoso, verde, grande).",
+            "puntos": 20
+          },
+          {
+            "id": "LL-U3-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "facil",
+            "pregunta": "¿Cuáles de las siguientes palabras son VERBOS?",
+            "opciones": [
+              "escribir",
+              "bonito",
+              "jugar",
+              "casa",
+              "leer",
+              "árbol"
+            ],
+            "respuestas_correctas": [0, 2, 4],
+            "guia": "Los VERBOS expresan acciones (escribir, jugar, leer), estados (ser, estar) o procesos. Se pueden conjugar: yo escribo, tú juegas, él lee.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U3-Q004",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Completa con la clase de palabra correcta:",
+            "texto": "La palabra 'corre' es un ______. La palabra 'río' es un ______. La palabra 'azul' es un ______.",
+            "espacios": ["verbo", "sustantivo", "adjetivo"],
+            "posiciones": [0, 1, 2],
+            "guia": "CORRE: ¿qué hace? = acción = VERBO. RÍO: ¿qué es? = nombra un lugar = SUSTANTIVO. AZUL: ¿cómo es? = describe = ADJETIVO.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U3-Q005",
+            "tipo": "sopa_letras",
+            "dificultad": "intermedio",
+            "pregunta": "Encuentra los 5 sustantivos escondidos en la sopa de letras:",
+            "palabras_buscar": ["QUITO", "SELVA", "CACAO", "PLAYA", "CONDOR"],
+            "grid": [
+              ["Q","U","I","T","O","R","M","S"],
+              ["A","S","E","L","V","A","N","E"],
+              ["C","A","C","A","O","P","L","L"],
+              ["C","O","N","D","O","R","L","V"],
+              ["P","L","A","Y","A","S","T","A"],
+              ["M","E","C","U","A","D","O","R"]
+            ],
+            "guia": "QUITO es la capital de Ecuador. SELVA es parte de la Amazonia. CACAO es un producto ecuatoriano. PLAYA está en la Costa. CÓNDOR es el ave nacional.",
+            "puntos": 25
+          },
+          {
+            "id": "LL-U3-Q006",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Escribe un ADJETIVO que describa a un árbol grande y verde.",
+            "respuesta_correcta": "verde",
+            "respuestas_aceptadas": ["verde", "grande", "frondoso", "alto", "hermoso", "bonito", "lindo"],
+            "guia": "Los ADJETIVOS califican o describen a los sustantivos. Un árbol puede ser: verde, grande, alto, frondoso, hermoso, etc.",
+            "puntos": 10,
+            "tolerancia_tipeo": true
+          }
+        ]
+      },
+      {
+        "id": "LL-U4",
+        "titulo": "Sílabas y palabras: separación y clasificación",
+        "descripcion": "Separa palabras en sílabas y las clasifica según el acento.",
+        "preguntas": [
+          {
+            "id": "LL-U4-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se separan correctamente las sílabas de la palabra MARIPOSA?",
+            "opciones": [
+              "mar-i-po-sa",
+              "ma-ri-po-sa",
+              "mari-pos-a",
+              "m-a-r-i-p-o-s-a"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "MA-RI-PO-SA tiene 4 sílabas. Cada sílaba tiene al menos una VOCAL. La sílaba tónica (la más fuerte) es 'PO'. Por eso es una palabra ESDRÚJULA... espera, la tónica de mariposa es 'SA' no... es 'PO': ma-ri-PO-sa → ESDRÚJULA no, tiene 4 sílabas y el acento en la antepenúltima = ESDRÚJULA. En realidad ma-ri-PO-sa: el acento está en PO, que es la antepenúltima sílaba → palabra ESDRÚJULA.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U4-Q002",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Separa en sílabas la palabra: ECUADOR",
+            "respuesta_correcta": "e-cua-dor",
+            "respuestas_aceptadas": ["e-cua-dor", "E-CUA-DOR", "ecua-dor"],
+            "guia": "E-CUA-DOR tiene 3 sílabas. 'CUA' es una sílaba porque la U y la A forman un diptongo. La sílaba tónica es 'DOR' (última) → palabra AGUDA → lleva tilde si termina en vocal, N o S. ECUADOR no lleva tilde porque termina en R.",
+            "puntos": 10,
+            "tolerancia_tipeo": true
+          },
+          {
+            "id": "LL-U4-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Las palabras AGUDAS son las que tienen la sílaba tónica en:",
+            "opciones": [
+              "La primera sílaba",
+              "La antepenúltima sílaba",
+              "La penúltima sílaba",
+              "La última sílaba"
+            ],
+            "respuesta_correcta": 3,
+            "guia": "Clasificación por acento: AGUDAS = acento en la ÚLTIMA sílaba (mamá, café, volcán). GRAVES = penúltima (árbol, mesa). ESDRÚJULAS = antepenúltima (sílaba, cóndor, pájaro).",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U4-Q004",
+            "tipo": "unir_correspondiente",
+            "dificultad": "dificil",
+            "pregunta": "Clasifica estas palabras según su acento:",
+            "pares_correctos": [
+              {"izquierda": "mamá", "derecha": "Aguda"},
+              {"izquierda": "árbol", "derecha": "Grave"},
+              {"izquierda": "pájaro", "derecha": "Esdrújula"},
+              {"izquierda": "café", "derecha": "Aguda"},
+              {"izquierda": "mesa", "derecha": "Grave"},
+              {"izquierda": "música", "derecha": "Esdrújula"}
+            ],
+            "guia": "Truco: MA-MÁ → acento en MÁ (última) = AGUDA. ÁR-BOL → acento en ÁR (penúltima) = GRAVE. PÁ-JA-RO → acento en PÁ (antepenúltima) = ESDRÚJULA.",
+            "puntos": 20
+          }
+        ]
+      },
+      {
+        "id": "LL-U5",
+        "titulo": "Comprensión lectora y tipos de texto",
+        "descripcion": "Lee, comprende e identifica características de diferentes tipos de textos.",
+        "preguntas": [
+          {
+            "id": "LL-U5-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Qué tipo de texto cuenta una historia inventada con personajes, lugar y tiempo?",
+            "opciones": [
+              "Texto informativo",
+              "Texto narrativo",
+              "Texto instructivo",
+              "Texto poético"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "El TEXTO NARRATIVO cuenta una historia (real o ficticia). Tiene: personajes, narrador, lugar, tiempo y argumento. Los cuentos y novelas son textos narrativos.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U5-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuáles son las tres partes de un cuento?",
+            "opciones": [
+              "Introducción, nudo y desenlace",
+              "Título, cuerpo y conclusión",
+              "Inicio, medio y moral",
+              "Presentación, problema y solución"
+            ],
+            "respuesta_correcta": 0,
+            "guia": "Todo cuento tiene TRES PARTES: 1) INTRODUCCIÓN: se presentan personajes y lugar. 2) NUDO: aparece el problema o conflicto. 3) DESENLACE: se resuelve el problema.",
+            "puntos": 10
+          },
+          {
+            "id": "LL-U5-Q003",
+            "tipo": "comprension_lectora",
+            "dificultad": "intermedio",
+            "texto_lectura": "El cóndor andino es el ave voladora más grande del mundo. Vive en las montañas de los Andes, en Ecuador, Colombia, Perú, Bolivia, Chile y Argentina. Puede medir hasta 3 metros de envergadura y pesar 15 kilogramos. El cóndor andino es el símbolo nacional del Ecuador y aparece en el escudo de armas del país. Desgraciadamente, está en peligro de extinción.",
+            "pregunta": "Según el texto, ¿cuánto puede medir la envergadura del cóndor andino?",
+            "opciones": [
+              "1 metro",
+              "2 metros",
+              "3 metros",
+              "15 metros"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "La ENVERGADURA es la medida de las alas extendidas de punta a punta. Según el texto: 'Puede medir hasta 3 metros de envergadura'. Es importante leer con atención para encontrar datos específicos.",
+            "puntos": 15
+          },
+          {
+            "id": "LL-U5-Q004",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "texto_lectura": "El cóndor andino es el ave voladora más grande del mundo. Vive en las montañas de los Andes, en Ecuador, Colombia, Perú, Bolivia, Chile y Argentina. Puede medir hasta 3 metros de envergadura y pesar 15 kilogramos. El cóndor andino es el símbolo nacional del Ecuador y aparece en el escudo de armas del país. Desgraciadamente, está en peligro de extinción.",
+            "pregunta": "Según el texto, ¿cuáles son características del cóndor andino? (Elige TODAS las correctas)",
+            "opciones": [
+              "Es el ave voladora más grande del mundo",
+              "Pesa 15 kilogramos",
+              "Solo vive en Ecuador",
+              "Es el símbolo nacional del Ecuador",
+              "Está en peligro de extinción",
+              "Puede volar a 5.000 metros de altura"
+            ],
+            "respuestas_correctas": [0, 1, 3, 4],
+            "guia": "Para responder correctamente, debes leer el texto cuidadosamente. La respuesta 'Solo vive en Ecuador' es incorrecta porque el texto dice que vive en varios países. La opción de 5.000 metros no aparece en el texto.",
+            "puntos": 20
+          },
+          {
+            "id": "LL-U5-Q005",
+            "tipo": "crucigrama",
+            "dificultad": "dificil",
+            "pregunta": "Resuelve el crucigrama de Lengua y Literatura:",
+            "pistas": {
+              "horizontal": [
+                {"numero": 1, "pista": "Persona que envía el mensaje en la comunicación", "respuesta": "EMISOR", "fila": 0, "col_inicio": 0},
+                {"numero": 3, "pista": "Nombra personas, animales, lugares o cosas", "respuesta": "SUSTANTIVO", "fila": 2, "col_inicio": 0},
+                {"numero": 5, "pista": "Las tres partes del cuento son: introducción, nudo y...", "respuesta": "DESENLACE", "fila": 4, "col_inicio": 0}
+              ],
+              "vertical": [
+                {"numero": 2, "pista": "Expresa una acción, estado o proceso", "respuesta": "VERBO", "fila": 0, "col_inicio": 3},
+                {"numero": 4, "pista": "Parte de la oración de la que se habla", "respuesta": "SUJETO", "fila": 2, "col_inicio": 6}
+              ]
+            },
+            "guia": "Repasa las clases de palabras: SUSTANTIVO (nombre), VERBO (acción), ADJETIVO (descripción). La comunicación tiene: EMISOR, RECEPTOR, MENSAJE, CANAL. El cuento tiene: INTRODUCCIÓN, NUDO, DESENLACE.",
+            "puntos": 30
+          }
+        ]
+      }
+    ]
+  },
+  "matematica": {
+    "nombre": "Matemática",
+    "icono": "🔢",
+    "color": "#2563EB",
+    "unidades": [
+      {
+        "id": "MAT-U1",
+        "titulo": "Números hasta el 9.999",
+        "descripcion": "Lee, escribe y comprende números de hasta 4 cifras.",
+        "preguntas": [
+          {
+            "id": "MAT-U1-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuántas unidades de millar tiene el número 4.365?",
+            "opciones": ["3", "6", "4", "5"],
+            "respuesta_correcta": 2,
+            "guia": "En el número 4.365: el 4 está en el lugar de UNIDADES DE MILLAR, el 3 en CENTENAS, el 6 en DECENAS y el 5 en UNIDADES. La tabla de posición es: UM | C | D | U.",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U1-Q002",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Escribe con letras el número: 1.500",
+            "respuesta_correcta": "mil quinientos",
+            "respuestas_aceptadas": ["mil quinientos", "mil quinientas", "1500", "un mil quinientos"],
+            "guia": "1.500 = 1 millar + 5 centenas = MIL QUINIENTOS. Recuerda: 100=cien, 200=doscientos, 300=trescientos, 400=cuatrocientos, 500=quinientos.",
+            "puntos": 10,
+            "tolerancia_tipeo": true
+          },
+          {
+            "id": "MAT-U1-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es el valor posicional del 7 en el número 2.743?",
+            "opciones": [
+              "7 unidades",
+              "7 unidades de millar",
+              "7 centenas",
+              "7 decenas"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "En 2.743: el 2 vale 2.000 (UM), el 7 vale 700 (CENTENAS), el 4 vale 40 (DECENAS), el 3 vale 3 (UNIDADES). El 7 está en la posición de centenas, entonces vale 700.",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U1-Q004",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Ordena de MENOR a MAYOR: 3.521 / 3.215 / 3.512 / 3.125",
+            "opciones": [
+              "3.521 - 3.512 - 3.215 - 3.125",
+              "3.125 - 3.215 - 3.512 - 3.521",
+              "3.215 - 3.125 - 3.521 - 3.512",
+              "3.125 - 3.512 - 3.215 - 3.521"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Para ordenar números: compara de izquierda a derecha. Todos tienen 3 en UM. En centenas: 125→1, 215→2, 512→5, 521→5. Los de centena 5 son mayores. Entre 3.512 y 3.521: en decenas 3.512 tiene 1, 3.521 tiene 2 → 3.512 < 3.521.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U1-Q005",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Completa la descomposición del número 6.847:",
+            "texto": "6.847 = ______ unidades de millar + ______ centenas + ______ decenas + ______ unidades",
+            "espacios": ["6", "8", "4", "7"],
+            "posiciones": [0, 1, 2, 3],
+            "guia": "Descomponer un número significa separar cada dígito por su valor posicional. 6.847 = 6.000 + 800 + 40 + 7. Cada posición tiene un nombre: UM(miles), C(centenas), D(decenas), U(unidades).",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "MAT-U2",
+        "titulo": "Suma y resta con reagrupación",
+        "descripcion": "Realiza sumas y restas con reagrupación hasta el 9.999.",
+        "preguntas": [
+          {
+            "id": "MAT-U2-Q001",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Resuelve: 456 + 378 = ?",
+            "respuesta_correcta": "834",
+            "respuestas_aceptadas": ["834"],
+            "guia": "456 + 378: Suma unidades: 6+8=14 (escribo 4 y llevo 1). Suma decenas: 5+7+1=13 (escribo 3 y llevo 1). Suma centenas: 4+3+1=8. Resultado: 834.",
+            "puntos": 10,
+            "tolerancia_tipeo": false
+          },
+          {
+            "id": "MAT-U2-Q002",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Resuelve: 723 - 456 = ?",
+            "respuesta_correcta": "267",
+            "respuestas_aceptadas": ["267"],
+            "guia": "723 - 456: Unidades: 3-6 no puedo, tomo prestado: 13-6=7. Decenas: 2-1(prestado)-5=no puedo, tomo prestado: 12-1-5=6. Centenas: 7-1-4=2. Resultado: 267.",
+            "puntos": 10,
+            "tolerancia_tipeo": false
+          },
+          {
+            "id": "MAT-U2-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En una biblioteca hay 2.345 libros. Se compraron 1.238 libros más. ¿Cuántos libros hay en total?",
+            "opciones": ["3.473", "3.583", "3.483", "3.573"],
+            "respuesta_correcta": 1,
+            "guia": "2.345 + 1.238 = ? Suma: 5+8=13 (3 llevo 1), 4+3+1=8, 3+2=5, 2+1=3. Total: 3.583 libros.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U2-Q004",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Un campesino ecuatoriano cosechó 4.500 kilos de cacao. Vendió 1.750 kilos. ¿Cuántos kilos le quedan?",
+            "opciones": ["2.650", "2.750", "2.850", "3.750"],
+            "respuesta_correcta": 1,
+            "guia": "4.500 - 1.750 = ? Recuerda que el cacao es uno de los productos más importantes de Ecuador. 4.500 - 1.750: 0-0=0, 0-5 no puedo → tomo prestado: 10-5=5 (llevo 1), 5-1-7 no puedo → tomo prestado: 15-1-7=7, 4-1-1=2. Resultado: 2.750.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U2-Q005",
+            "tipo": "seleccion_unica",
+            "dificultad": "dificil",
+            "pregunta": "¿Cuál es el número que sumado con 3.456 da 7.000?",
+            "opciones": ["3.544", "3.534", "4.544", "3.454"],
+            "respuesta_correcta": 0,
+            "guia": "Para encontrar el número que falta: 7.000 - 3.456 = ? 7.000 - 3.456: 0-6 no puedo → borro hasta tener 6.990+10=7.000... Método: 7000-3456=3544. Comprueba: 3.456+3.544=7.000 ✓",
+            "puntos": 20
+          }
+        ]
+      },
+      {
+        "id": "MAT-U3",
+        "titulo": "Multiplicación",
+        "descripcion": "Aplica la multiplicación como suma repetida y usa las tablas del 1 al 10.",
+        "preguntas": [
+          {
+            "id": "MAT-U3-Q001",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "¿Cuánto es 7 × 8?",
+            "respuesta_correcta": "56",
+            "respuestas_aceptadas": ["56"],
+            "guia": "7 × 8 = 56. Truco: 7×8 → piensa 7×7=49, luego 49+7=56. O también: 8×7 → 8×5=40, 8×2=16, 40+16=56. ¡Aprende bien las tablas del 1 al 10!",
+            "puntos": 10,
+            "tolerancia_tipeo": false
+          },
+          {
+            "id": "MAT-U3-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Qué representa la multiplicación 4 × 3?",
+            "opciones": [
+              "Restar 4 tres veces",
+              "Sumar el número 4, tres veces: 4+4+4",
+              "Dividir 4 entre 3",
+              "Sumar 4 más 3"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "La MULTIPLICACIÓN es una SUMA REPETIDA. 4×3 significa sumar el 4, tres veces: 4+4+4=12. En la multiplicación: 4 es el MULTIPLICANDO, 3 es el MULTIPLICADOR y 12 es el PRODUCTO.",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U3-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En una granja de la Costa ecuatoriana hay 6 jaulas con 9 gallinas cada una. ¿Cuántas gallinas hay en total?",
+            "opciones": ["48", "54", "63", "45"],
+            "respuesta_correcta": 1,
+            "guia": "6 jaulas × 9 gallinas = 6×9 = 54 gallinas. La Costa ecuatoriana tiene mucha producción agropecuaria. 6×9: piensa 6×10=60, luego 60-6=54.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U3-Q004",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuánto es 35 × 4?",
+            "opciones": ["120", "130", "140", "145"],
+            "respuesta_correcta": 2,
+            "guia": "35 × 4: Multiplica las unidades: 5×4=20 (escribo 0, llevo 2). Multiplica las decenas: 3×4=12, más 2 que llevé = 14. Resultado: 140.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U3-Q005",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada multiplicación con su resultado:",
+            "pares_correctos": [
+              {"izquierda": "6 × 7", "derecha": "42"},
+              {"izquierda": "8 × 9", "derecha": "72"},
+              {"izquierda": "5 × 6", "derecha": "30"},
+              {"izquierda": "7 × 7", "derecha": "49"},
+              {"izquierda": "9 × 9", "derecha": "81"}
+            ],
+            "guia": "Tablas de multiplicar: 6×7=42, 8×9=72, 5×6=30, 7×7=49, 9×9=81. Practica diariamente las tablas del 1 al 10.",
+            "puntos": 20
+          }
+        ]
+      },
+      {
+        "id": "MAT-U4",
+        "titulo": "División exacta e inexacta",
+        "descripcion": "Comprende y aplica la división como reparto equitativo.",
+        "preguntas": [
+          {
+            "id": "MAT-U4-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llaman las partes de una división? Dividendo ÷ Divisor = ?",
+            "opciones": [
+              "Suma y diferencia",
+              "Cociente y resto",
+              "Factor y producto",
+              "Términos"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "En la DIVISIÓN: DIVIDENDO ÷ DIVISOR = COCIENTE (resto R). Ejemplo: 15÷4=3 (resto 3). 15=dividendo, 4=divisor, 3=cociente, 3=resto. Verificar: divisor×cociente+resto=dividendo: 4×3+3=15 ✓",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U4-Q002",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Resuelve: 48 ÷ 6 = ?",
+            "respuesta_correcta": "8",
+            "respuestas_aceptadas": ["8"],
+            "guia": "48 ÷ 6 = 8. Piensa: ¿Cuántas veces cabe el 6 en el 48? 6×8=48. Esta es una DIVISIÓN EXACTA porque el resto es 0.",
+            "puntos": 10,
+            "tolerancia_tipeo": false
+          },
+          {
+            "id": "MAT-U4-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En las Islas Galápagos hay 84 tortugas que deben ser distribuidas en 7 reservas por igual. ¿Cuántas tortugas irán a cada reserva?",
+            "opciones": ["10", "11", "12", "14"],
+            "respuesta_correcta": 2,
+            "guia": "84 ÷ 7 = 12. Las Islas Galápagos son Patrimonio de la Humanidad y son famosas por sus tortugas gigantes. 7×12=84.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U4-Q004",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuánto es 95 ÷ 4? (Indica cociente y resto)",
+            "opciones": [
+              "Cociente: 22, Resto: 7",
+              "Cociente: 23, Resto: 3",
+              "Cociente: 24, Resto: 1",
+              "Cociente: 23, Resto: 4"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "95 ÷ 4: 4 cabe en 9 → 2 veces (4×2=8), resto 1. Bajo el 5 → 15. 4 cabe en 15 → 3 veces (4×3=12), resto 3. Cociente: 23, Resto: 3. Verificar: 4×23+3=92+3=95 ✓",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "MAT-U5",
+        "titulo": "Figuras geométricas y cuerpos geométricos",
+        "descripcion": "Identifica y describe figuras y cuerpos geométricos.",
+        "preguntas": [
+          {
+            "id": "MAT-U5-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuántos lados tiene un hexágono?",
+            "opciones": ["4", "5", "6", "8"],
+            "respuesta_correcta": 2,
+            "guia": "Las figuras según sus lados: TRIÁNGULO=3, CUADRADO=4, PENTÁGONO=5, HEXÁGONO=6, HEPTÁGONO=7, OCTÁGONO=8. ¡Recuerda que HEXA significa 6 en griego!",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U5-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada figura con el número de lados que tiene:",
+            "pares_correctos": [
+              {"izquierda": "Triángulo", "derecha": "3 lados"},
+              {"izquierda": "Cuadrado", "derecha": "4 lados"},
+              {"izquierda": "Pentágono", "derecha": "5 lados"},
+              {"izquierda": "Hexágono", "derecha": "6 lados"},
+              {"izquierda": "Octágono", "derecha": "8 lados"}
+            ],
+            "guia": "POLÍGONOS son figuras cerradas con lados rectos. TRI=3, CUADRI=4, PENTA=5, HEXA=6, HEPTA=7, OCTA=8, NONA=9, DECA=10.",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U5-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Qué figura geométrica tiene todas sus caras cuadradas?",
+            "opciones": ["Cilindro", "Pirámide", "Cubo", "Cono"],
+            "respuesta_correcta": 2,
+            "guia": "El CUBO tiene: 6 caras cuadradas iguales, 12 aristas y 8 vértices. También se llama hexaedro regular. Los dados son cubos. Los cuerpos geométricos son figuras en 3D (tienen ancho, alto y profundidad).",
+            "puntos": 15
+          },
+          {
+            "id": "MAT-U5-Q004",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles de los siguientes son cuerpos geométricos? (figuras en 3D)",
+            "opciones": [
+              "Esfera",
+              "Triángulo",
+              "Cilindro",
+              "Círculo",
+              "Cono",
+              "Cuadrado"
+            ],
+            "respuestas_correctas": [0, 2, 4],
+            "guia": "Las FIGURAS 2D (planas) son: triángulo, cuadrado, círculo, rectángulo. Los CUERPOS 3D (sólidos) son: esfera, cubo, cilindro, cono, pirámide, prisma. La diferencia: 2D tiene largo y ancho, 3D también tiene profundidad.",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "MAT-U6",
+        "titulo": "Fracciones",
+        "descripcion": "Comprende y opera con fracciones simples.",
+        "preguntas": [
+          {
+            "id": "MAT-U6-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "En la fracción 3/4, ¿qué indica el número 4 (denominador)?",
+            "opciones": [
+              "Las partes que tomamos",
+              "Las partes iguales en que se dividió el todo",
+              "El total de objetos",
+              "La cantidad que sobra"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "En una fracción: el NUMERADOR (arriba) indica las partes que tomamos. El DENOMINADOR (abajo) indica en cuántas partes iguales se dividió el todo. En 3/4: dividimos en 4 partes y tomamos 3.",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U6-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Qué fracción representa la mitad de una naranja?",
+            "opciones": ["1/4", "1/2", "2/3", "1/3"],
+            "respuesta_correcta": 1,
+            "guia": "La MITAD = 1/2 (un medio). Significa que dividimos en 2 partes iguales y tomamos 1. Otras fracciones comunes: 1/4=un cuarto, 1/3=un tercio, 3/4=tres cuartos.",
+            "puntos": 10
+          },
+          {
+            "id": "MAT-U6-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Una pizza se dividió en 8 partes iguales. Sebastián comió 3 partes. ¿Qué fracción comió Sebastián?",
+            "opciones": ["8/3", "3/5", "3/8", "5/8"],
+            "respuesta_correcta": 2,
+            "guia": "La pizza se dividió en 8 partes (DENOMINADOR=8). Sebastián comió 3 (NUMERADOR=3). La fracción es 3/8 (tres octavos). Sobran 5/8 de pizza.",
+            "puntos": 15
+          }
+        ]
+      }
+    ]
+  },
+  "ciencias_naturales": {
+    "nombre": "Ciencias Naturales",
+    "icono": "🌿",
+    "color": "#059669",
+    "unidades": [
+      {
+        "id": "CN-U1",
+        "titulo": "El cuerpo humano",
+        "descripcion": "Identifica los sistemas del cuerpo humano y sus funciones.",
+        "preguntas": [
+          {
+            "id": "CN-U1-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es el órgano más importante del sistema circulatorio?",
+            "opciones": ["El pulmón", "El hígado", "El corazón", "El riñón"],
+            "respuesta_correcta": 2,
+            "guia": "El CORAZÓN es el órgano principal del sistema circulatorio. Bombea la sangre por todo el cuerpo. Tiene 4 cámaras: 2 aurículas y 2 ventrículos. Late aproximadamente 70 veces por minuto.",
+            "puntos": 10
+          },
+          {
+            "id": "CN-U1-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada sistema del cuerpo con su función principal:",
+            "pares_correctos": [
+              {"izquierda": "Sistema digestivo", "derecha": "Procesa los alimentos que comemos"},
+              {"izquierda": "Sistema respiratorio", "derecha": "Toma el oxígeno del aire"},
+              {"izquierda": "Sistema circulatorio", "derecha": "Transporta la sangre por el cuerpo"},
+              {"izquierda": "Sistema nervioso", "derecha": "Controla y coordina el cuerpo"},
+              {"izquierda": "Sistema óseo", "derecha": "Da estructura y sostén al cuerpo"}
+            ],
+            "guia": "El cuerpo humano tiene muchos sistemas que trabajan juntos: DIGESTIVO (boca→estómago→intestinos), RESPIRATORIO (nariz→pulmones), CIRCULATORIO (corazón→arterias→venas), NERVIOSO (cerebro→nervios), ÓSEO (huesos).",
+            "puntos": 20
+          },
+          {
+            "id": "CN-U1-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Qué órganos forman parte del sistema digestivo? (Elige TODOS los correctos)",
+            "opciones": [
+              "Estómago",
+              "Pulmones",
+              "Intestino delgado",
+              "Cerebro",
+              "Esófago",
+              "Hígado"
+            ],
+            "respuestas_correctas": [0, 2, 4, 5],
+            "guia": "El sistema digestivo incluye: boca, esófago, estómago, intestino delgado, intestino grueso, hígado, páncreas y vesícula biliar. El recorrido del alimento: boca→esófago→estómago→intestino delgado→intestino grueso→recto.",
+            "puntos": 15
+          },
+          {
+            "id": "CN-U1-Q004",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Completa el texto sobre la respiración:",
+            "texto": "Cuando INHALAMOS, el aire entra por la ______ y llega a los ______. Allí, la sangre toma el ______ y libera el ______.",
+            "espacios": ["nariz", "pulmones", "oxígeno", "dióxido de carbono"],
+            "posiciones": [0, 1, 2, 3],
+            "guia": "La RESPIRACIÓN: inhalamos (tomamos aire) por la nariz → tráquea → bronquios → pulmones. En los pulmones, la sangre toma el OXÍGENO y devuelve el CO₂. Luego exhalamos el CO₂.",
+            "puntos": 20
+          },
+          {
+            "id": "CN-U1-Q005",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuántos huesos tiene aproximadamente el cuerpo humano adulto?",
+            "opciones": ["100", "206", "300", "150"],
+            "respuesta_correcta": 1,
+            "guia": "El cuerpo humano adulto tiene 206 huesos. Los bebés nacen con más de 300, pero algunos se fusionan al crecer. El hueso más largo es el FÉMUR (muslo) y el más pequeño es el ESTRIBO (oído).",
+            "puntos": 10
+          }
+        ]
+      },
+      {
+        "id": "CN-U2",
+        "titulo": "Los seres vivos: plantas y animales",
+        "descripcion": "Clasifica y describe características de plantas y animales.",
+        "preguntas": [
+          {
+            "id": "CN-U2-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llama el proceso por el cual las plantas producen su propio alimento usando la luz del sol?",
+            "opciones": ["Respiración", "Fotosíntesis", "Nutrición", "Germinación"],
+            "respuesta_correcta": 1,
+            "guia": "La FOTOSÍNTESIS es el proceso por el que las plantas fabrican su alimento. Necesitan: LUZ SOLAR + AGUA + CO₂ → GLUCOSA (alimento) + O₂ (oxígeno). Las plantas son los PRODUCTORES de los ecosistemas porque generan su propio alimento.",
+            "puntos": 10
+          },
+          {
+            "id": "CN-U2-Q002",
+            "tipo": "seleccion_multiple",
+            "dificultad": "facil",
+            "pregunta": "¿Qué necesita una planta para realizar la fotosíntesis? (Elige TODOS)",
+            "opciones": [
+              "Luz solar",
+              "Agua",
+              "Sal",
+              "Dióxido de carbono (CO₂)",
+              "Viento",
+              "Temperatura alta"
+            ],
+            "respuestas_correctas": [0, 1, 3],
+            "guia": "Para la FOTOSÍNTESIS se necesitan: LUZ del sol + AGUA del suelo (raíces) + CO₂ del aire (hojas). El resultado es: glucosa (alimento para la planta) + oxígeno (que nosotros respiramos). Ecuación: CO₂ + H₂O + Luz → Glucosa + O₂.",
+            "puntos": 15
+          },
+          {
+            "id": "CN-U2-Q003",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada grupo de animales con su característica principal:",
+            "pares_correctos": [
+              {"izquierda": "Mamíferos", "derecha": "Tienen pelo y amamantan a sus crías"},
+              {"izquierda": "Aves", "derecha": "Tienen plumas y ponen huevos"},
+              {"izquierda": "Reptiles", "derecha": "Tienen escamas y son de sangre fría"},
+              {"izquierda": "Peces", "derecha": "Viven en el agua y tienen aletas"},
+              {"izquierda": "Anfibios", "derecha": "Viven en agua y tierra"}
+            ],
+            "guia": "Clasificación de los VERTEBRADOS: MAMÍFEROS (perro, ballena, murciélago), AVES (cóndor, pingüino, loro), REPTILES (iguana de Galápagos, cocodrilo), PECES (trucha, tiburón), ANFIBIOS (rana, sapo). Ecuador tiene la mayor biodiversidad por km² del planeta.",
+            "puntos": 20
+          },
+          {
+            "id": "CN-U2-Q004",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Ecuador es considerado uno de los países MEGADIVERSOS del mundo. ¿Qué significa esto?",
+            "opciones": [
+              "Es uno de los países más grandes del mundo",
+              "Tiene una gran variedad de especies de plantas y animales",
+              "Tiene muchos recursos minerales",
+              "Su economía es muy grande"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Ecuador es MEGADIVERSO porque a pesar de su pequeño tamaño tiene una enorme cantidad de especies. Tiene: 4 regiones (Sierra, Costa, Amazonia, Galápagos), 11% de las plantas del mundo, 18% de las aves del mundo y miles de especies de animales.",
+            "puntos": 15
+          },
+          {
+            "id": "CN-U2-Q005",
+            "tipo": "sopa_letras",
+            "dificultad": "intermedio",
+            "pregunta": "Encuentra los nombres de 5 animales de Ecuador en la sopa de letras:",
+            "palabras_buscar": ["TAPIR", "JAGUAR", "CAIMÁN", "DELFIN", "CÓNDOR"],
+            "grid": [
+              ["T","A","P","I","R","A","M","S"],
+              ["J","A","G","U","A","R","N","E"],
+              ["C","A","I","M","A","N","L","V"],
+              ["D","E","L","F","I","N","L","A"],
+              ["C","O","N","D","O","R","S","T"],
+              ["M","E","C","U","A","D","O","R"]
+            ],
+            "guia": "TAPIR: mamífero de la Amazonia. JAGUAR: felino más grande de América. CAIMÁN: reptil de la Amazonia. DELFÍN: mamífero marino. CÓNDOR: ave símbolo de Ecuador.",
+            "puntos": 25
+          }
+        ]
+      },
+      {
+        "id": "CN-U3",
+        "titulo": "El agua y su importancia",
+        "descripcion": "Comprende el ciclo del agua y su importancia para los seres vivos.",
+        "preguntas": [
+          {
+            "id": "CN-U3-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llama el proceso en que el agua de los ríos y mares se convierte en vapor?",
+            "opciones": ["Condensación", "Precipitación", "Evaporación", "Filtración"],
+            "respuesta_correcta": 2,
+            "guia": "El CICLO DEL AGUA: EVAPORACIÓN (agua→vapor, por el calor del sol) → CONDENSACIÓN (vapor→nube) → PRECIPITACIÓN (lluvia, nieve, granizo) → ESCORRENTÍA (el agua corre y vuelve al mar). Es un ciclo continuo.",
+            "puntos": 10
+          },
+          {
+            "id": "CN-U3-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Une cada etapa del ciclo del agua con su descripción:",
+            "pares_correctos": [
+              {"izquierda": "Evaporación", "derecha": "El agua se convierte en vapor de agua"},
+              {"izquierda": "Condensación", "derecha": "El vapor forma nubes"},
+              {"izquierda": "Precipitación", "derecha": "Cae agua en forma de lluvia o nieve"},
+              {"izquierda": "Infiltración", "derecha": "El agua se filtra en el suelo"}
+            ],
+            "guia": "El ciclo hidrológico es el movimiento continuo del agua en la Tierra. Ecuador tiene abundante agua gracias a la Amazonia (pulmón del mundo) y los glaciares andinos como el volcán Cotopaxi.",
+            "puntos": 20
+          },
+          {
+            "id": "CN-U3-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "facil",
+            "pregunta": "¿Para qué usan el agua los seres vivos? (Elige TODOS los correctos)",
+            "opciones": [
+              "Para beber y mantenerse hidratados",
+              "Para fabricar metales",
+              "Las plantas la usan en la fotosíntesis",
+              "Para regular la temperatura del cuerpo",
+              "Para producir electricidad (solo los humanos)"
+            ],
+            "respuestas_correctas": [0, 2, 3],
+            "guia": "El AGUA es fundamental para la vida: los animales la beben para sobrevivir, las plantas la necesitan para la fotosíntesis, y todos los seres vivos la usan para regular su temperatura corporal y como medio de transporte de nutrientes.",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "CN-U4",
+        "titulo": "Las regiones naturales del Ecuador",
+        "descripcion": "Identifica las 4 regiones del Ecuador y sus características naturales.",
+        "preguntas": [
+          {
+            "id": "CN-U4-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuántas regiones naturales tiene Ecuador?",
+            "opciones": ["2", "3", "4", "5"],
+            "respuesta_correcta": 2,
+            "guia": "Ecuador tiene CUATRO regiones naturales: 1) COSTA (litoral o región 1), 2) SIERRA (interandina o región 2), 3) AMAZONIA (oriente o región 3), 4) GALÁPAGOS (región insular o región 4). Cada región tiene su propio clima, flora y fauna.",
+            "puntos": 10
+          },
+          {
+            "id": "CN-U4-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada región con su característica principal:",
+            "pares_correctos": [
+              {"izquierda": "Costa", "derecha": "Playas, mangles y clima cálido húmedo"},
+              {"izquierda": "Sierra", "derecha": "Montañas, volcanes y valles andinos"},
+              {"izquierda": "Amazonia", "derecha": "Selva tropical y ríos caudalosos"},
+              {"izquierda": "Galápagos", "derecha": "Islas volcánicas con fauna única"}
+            ],
+            "guia": "COSTA: bañada por el Océano Pacífico. SIERRA: atravesada por los Andes con volcanes como Cotopaxi y Chimborazo. AMAZONIA: ríos como el Napo y Pastaza. GALÁPAGOS: declaradas Patrimonio de la Humanidad por la UNESCO.",
+            "puntos": 15
+          },
+          {
+            "id": "CN-U4-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles de los siguientes animales son propios de las Islas Galápagos? (Elige TODOS los correctos)",
+            "opciones": [
+              "Iguana marina",
+              "Tigre de Bengala",
+              "Tortuga gigante de Galápagos",
+              "Pingüino de Galápagos",
+              "Leopardo de las nieves",
+              "Lobo marino de Galápagos"
+            ],
+            "respuestas_correctas": [0, 2, 3, 5],
+            "guia": "Las Islas Galápagos tienen fauna ENDÉMICA (solo existe ahí): iguana marina, iguana terrestre, tortuga gigante, pingüino de Galápagos, lobo marino, cormorán no volador. Charles Darwin visitó Galápagos en 1835, lo que inspiró su teoría de la evolución.",
+            "puntos": 20
+          },
+          {
+            "id": "CN-U4-Q004",
+            "tipo": "crucigrama",
+            "dificultad": "dificil",
+            "pregunta": "Resuelve el crucigrama de Ciencias Naturales:",
+            "pistas": {
+              "horizontal": [
+                {"numero": 1, "pista": "Proceso por el que las plantas fabrican su alimento", "respuesta": "FOTOSINTESIS", "fila": 0, "col_inicio": 0},
+                {"numero": 3, "pista": "Región del Ecuador con selva tropical", "respuesta": "AMAZONIA", "fila": 2, "col_inicio": 0},
+                {"numero": 5, "pista": "Órgano que bombea la sangre", "respuesta": "CORAZON", "fila": 4, "col_inicio": 0}
+              ],
+              "vertical": [
+                {"numero": 2, "pista": "Proceso: agua se convierte en vapor", "respuesta": "EVAPORACION", "fila": 0, "col_inicio": 5},
+                {"numero": 4, "pista": "Ave símbolo de Ecuador", "respuesta": "CONDOR", "fila": 2, "col_inicio": 7}
+              ]
+            },
+            "guia": "Repasa: Fotosíntesis (luz+agua+CO₂→glucosa+O₂), regiones del Ecuador (Costa, Sierra, Amazonia, Galápagos), ciclo del agua (evaporación, condensación, precipitación), sistemas del cuerpo.",
+            "puntos": 30
+          }
+        ]
+      }
+    ]
+  },
+  "estudios_sociales": {
+    "nombre": "Estudios Sociales",
+    "icono": "🌎",
+    "color": "#D97706",
+    "unidades": [
+      {
+        "id": "SS-U1",
+        "titulo": "Ecuador: su historia y geografía",
+        "descripcion": "Conoce la historia, geografía y símbolos del Ecuador.",
+        "preguntas": [
+          {
+            "id": "SS-U1-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es la capital de Ecuador?",
+            "opciones": ["Guayaquil", "Cuenca", "Quito", "Ambato"],
+            "respuesta_correcta": 2,
+            "guia": "QUITO es la capital de la República del Ecuador. Es también la capital de la provincia de Pichincha y está ubicada en la Sierra ecuatoriana, a 2.850 metros sobre el nivel del mar. Es Patrimonio de la Humanidad desde 1978.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U1-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuáles son los colores de la bandera de Ecuador, de arriba hacia abajo?",
+            "opciones": [
+              "Rojo, blanco y azul",
+              "Amarillo, azul y rojo",
+              "Verde, blanco y rojo",
+              "Azul, amarillo y rojo"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "La bandera del Ecuador tiene tres colores: AMARILLO (la mitad superior), AZUL y ROJO. El amarillo representa los recursos naturales, el azul el cielo y el mar, y el rojo la sangre de los héroes. En el centro lleva el escudo nacional.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U1-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuándo se celebra la Independencia de Ecuador?",
+            "opciones": ["24 de mayo", "10 de agosto", "9 de octubre", "25 de julio"],
+            "respuesta_correcta": 1,
+            "guia": "El 10 de AGOSTO de 1809 se produjo el Primer Grito de Independencia en Quito. Por eso es la Fiesta Nacional del Ecuador. La Independencia definitiva se logró el 24 de mayo de 1822 en la Batalla de Pichincha.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U1-Q004",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Une cada símbolo nacional con su descripción:",
+            "pares_correctos": [
+              {"izquierda": "Cóndor andino", "derecha": "Ave nacional del Ecuador"},
+              {"izquierda": "Rosa", "derecha": "Flor nacional del Ecuador"},
+              {"izquierda": "Ceibo", "derecha": "Árbol nacional del Ecuador"},
+              {"izquierda": "Esmeralda", "derecha": "Piedra preciosa símbolo del Ecuador"}
+            ],
+            "guia": "Símbolos nacionales del Ecuador: Ave = CÓNDOR ANDINO (en el escudo). Flor = ROSA (Ecuador es el mayor exportador de rosas del mundo). Árbol = CEIBO (árbol sagrado de la Costa). Los símbolos patrios son: bandera, escudo e himno nacional.",
+            "puntos": 20
+          },
+          {
+            "id": "SS-U1-Q005",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llama el río más largo del Ecuador?",
+            "respuesta_correcta": "napo",
+            "respuestas_aceptadas": ["napo", "río napo", "el napo", "Napo"],
+            "guia": "El río NAPO es el más largo del Ecuador con 1.130 km. Nace en las faldas del volcán Cotopaxi en la Sierra y desemboca en el río Amazonas en el Perú. Pasa por la región Amazónica.",
+            "puntos": 10,
+            "tolerancia_tipeo": true
+          },
+          {
+            "id": "SS-U1-Q006",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Por qué Ecuador se llama así?",
+            "opciones": [
+              "Por el conquistador español Francisco de Orellana",
+              "Porque la línea ecuatorial (ecuador) pasa por su territorio",
+              "Por el libertador Simón Bolívar",
+              "Por el río más grande de Sudamérica"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Ecuador se llama así porque la LÍNEA ECUATORIAL (el paralelo 0°) atraviesa su territorio. El Monumento a la Mitad del Mundo está a 22 km de Quito en el cantón San Antonio de Pichincha. Ecuador está dividido en dos hemisferios: norte y sur.",
+            "puntos": 15
+          },
+          {
+            "id": "SS-U1-Q007",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Con qué países limita Ecuador? (Elige TODOS los correctos)",
+            "opciones": [
+              "Colombia",
+              "Venezuela",
+              "Perú",
+              "Brasil",
+              "Bolivia"
+            ],
+            "respuestas_correctas": [0, 2],
+            "guia": "Ecuador limita con: COLOMBIA (al norte) y PERÚ (al sur y al este). Al oeste está el OCÉANO PACÍFICO. Ecuador no tiene frontera con Venezuela, Brasil ni Bolivia.",
+            "puntos": 15
+          },
+          {
+            "id": "SS-U1-Q008",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuántas provincias tiene Ecuador?",
+            "opciones": ["20", "22", "24", "26"],
+            "respuesta_correcta": 2,
+            "guia": "Ecuador tiene 24 PROVINCIAS: en la Costa (7), Sierra (10), Amazonia (6), Galápagos (1). Las más grandes son: Pastaza (Amazonia) y la más pequeña es Galápagos. Quito es la capital de Pichincha.",
+            "puntos": 10
+          }
+        ]
+      },
+      {
+        "id": "SS-U2",
+        "titulo": "Las provincias del Ecuador",
+        "descripcion": "Identifica las provincias del Ecuador y sus capitales.",
+        "preguntas": [
+          {
+            "id": "SS-U2-Q001",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Une cada provincia con su capital:",
+            "pares_correctos": [
+              {"izquierda": "Pichincha", "derecha": "Quito"},
+              {"izquierda": "Guayas", "derecha": "Guayaquil"},
+              {"izquierda": "Azuay", "derecha": "Cuenca"},
+              {"izquierda": "Manabí", "derecha": "Portoviejo"},
+              {"izquierda": "Galápagos", "derecha": "Puerto Baquerizo Moreno"}
+            ],
+            "guia": "Capitales de provincias importantes: PICHINCHA→Quito, GUAYAS→Guayaquil, AZUAY→Cuenca, MANABÍ→Portoviejo, GALÁPAGOS→Puerto Baquerizo Moreno, CHIMBORAZO→Riobamba, TUNGURAHUA→Ambato, LOJA→Loja.",
+            "puntos": 20
+          },
+          {
+            "id": "SS-U2-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿En qué región del Ecuador está la ciudad de Guayaquil?",
+            "opciones": ["Sierra", "Costa", "Amazonia", "Galápagos"],
+            "respuesta_correcta": 1,
+            "guia": "GUAYAQUIL es la ciudad más poblada de Ecuador y está en la región COSTA, en la provincia del Guayas, a orillas del río Guayas. Es el principal puerto del país y tiene el aeropuerto más grande.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U2-Q003",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles de las siguientes ciudades están en la SIERRA ecuatoriana?",
+            "opciones": [
+              "Quito",
+              "Guayaquil",
+              "Cuenca",
+              "Manta",
+              "Ambato",
+              "Esmeraldas"
+            ],
+            "respuestas_correctas": [0, 2, 4],
+            "guia": "SIERRA: Quito (Pichincha), Cuenca (Azuay), Ambato (Tungurahua), Riobamba (Chimborazo), Loja (Loja), Ibarra (Imbabura). COSTA: Guayaquil, Manta, Esmeraldas, Machala, Portoviejo.",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "SS-U3",
+        "titulo": "Cultura, tradiciones y pueblos del Ecuador",
+        "descripcion": "Valora la diversidad cultural de los pueblos ecuatorianos.",
+        "preguntas": [
+          {
+            "id": "SS-U3-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llama la ciudad andina del Ecuador que es considerada la 'Atenas de América'?",
+            "opciones": ["Guayaquil", "Ambato", "Quito", "Cuenca"],
+            "respuesta_correcta": 2,
+            "guia": "QUITO es conocida como la 'Carita de Dios' y fue llamada 'Atenas de Ecuador' por su historia cultural. Sin embargo, la 'Atenas de América' es México. Cuenca es conocida como la 'Atenas del Ecuador' por su riqueza cultural y artística.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U3-Q002",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuáles de las siguientes son festividades tradicionales del Ecuador? (Elige TODAS las correctas)",
+            "opciones": [
+              "Carnaval de Guaranda",
+              "Diablada de Pillaro",
+              "Mama Negra de Latacunga",
+              "Carnaval de Río",
+              "Inti Raymi (Fiesta del Sol)",
+              "Año Nuevo Chino"
+            ],
+            "respuestas_correctas": [0, 1, 2, 4],
+            "guia": "Festividades del Ecuador: CARNAVAL DE GUARANDA (Bolívar), DIABLADA DE PILLARO (Tungurahua), MAMA NEGRA (Latacunga, Cotopaxi), INTI RAYMI (fiesta indígena del sol en el solsticio de junio), PAWKAR RAYMI, Fiestas de Quito (diciembre).",
+            "puntos": 15
+          },
+          {
+            "id": "SS-U3-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuántas nacionalidades indígenas reconoce la Constitución del Ecuador?",
+            "opciones": ["5", "10", "14", "18"],
+            "respuesta_correcta": 2,
+            "guia": "Ecuador reconoce 14 NACIONALIDADES INDÍGENAS: Kichwa (la más numerosa), Shuar, Achuar, Waorani, Cofán, Siona, Secoya, Zápara, Andoa, Shiwiar, Épera, Chachi, Tsáchila y Awa. El Ecuador es un país PLURINACIONAL e INTERCULTURAL.",
+            "puntos": 15
+          }
+        ]
+      },
+      {
+        "id": "SS-U4",
+        "titulo": "La economía y producción del Ecuador",
+        "descripcion": "Comprende las principales actividades económicas del Ecuador.",
+        "preguntas": [
+          {
+            "id": "SS-U4-Q001",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es el principal producto de exportación del Ecuador?",
+            "opciones": ["Cacao", "Banano", "Petróleo", "Camarón"],
+            "respuesta_correcta": 1,
+            "guia": "El BANANO (o plátano de exportación) es el principal producto agrícola de exportación de Ecuador. Ecuador es el mayor exportador de banano del mundo. También exporta: camarón, cacao, atún, rosas, petróleo.",
+            "puntos": 10
+          },
+          {
+            "id": "SS-U4-Q002",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Une cada producto con la región del Ecuador donde más se produce:",
+            "pares_correctos": [
+              {"izquierda": "Banano", "derecha": "Costa"},
+              {"izquierda": "Papa", "derecha": "Sierra"},
+              {"izquierda": "Madera", "derecha": "Amazonia"},
+              {"izquierda": "Cacao", "derecha": "Costa"},
+              {"izquierda": "Maíz", "derecha": "Sierra"}
+            ],
+            "guia": "Producción por región: COSTA: banano, cacao, camarón, caña de azúcar, arroz. SIERRA: papa, maíz, trigo, cebada, leche. AMAZONIA: madera, petróleo, frutas tropicales. GALÁPAGOS: turismo, pesca artesanal.",
+            "puntos": 20
+          },
+          {
+            "id": "SS-U4-Q003",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Con qué moneda se realizan las transacciones económicas en Ecuador actualmente?",
+            "opciones": ["Sucre", "Sol", "Dólar americano", "Euro"],
+            "respuesta_correcta": 2,
+            "guia": "Ecuador usa el DÓLAR AMERICANO (USD) desde el año 2000, cuando el presidente Jamil Mahuad dolarizó la economía. Antes se usaba el SUCRE (moneda que se llamaba así en honor al mariscal Antonio José de Sucre).",
+            "puntos": 10
+          }
+        ]
+      }
+    ]
+  },
+  "ingles": {
+    "nombre": "Inglés",
+    "icono": "🇬🇧",
+    "color": "#DC2626",
+    "unidades": [
+      {
+        "id": "ING-U1",
+        "titulo": "The alphabet and basic vocabulary",
+        "descripcion": "Recognizes and uses basic English vocabulary.",
+        "preguntas": [
+          {
+            "id": "ING-U1-Q001",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Match the English word with its Spanish translation:",
+            "pares_correctos": [
+              {"izquierda": "Dog", "derecha": "Perro"},
+              {"izquierda": "Cat", "derecha": "Gato"},
+              {"izquierda": "House", "derecha": "Casa"},
+              {"izquierda": "School", "derecha": "Escuela"},
+              {"izquierda": "Book", "derecha": "Libro"},
+              {"izquierda": "Tree", "derecha": "Árbol"}
+            ],
+            "guia": "Vocabulario básico: DOG=perro, CAT=gato, HOUSE=casa, SCHOOL=escuela, BOOK=libro, TREE=árbol, WATER=agua, SUN=sol, MOON=luna, STAR=estrella.",
+            "puntos": 15
+          },
+          {
+            "id": "ING-U1-Q002",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "What color is the sky? (¿De qué color es el cielo?)",
+            "opciones": ["Red", "Green", "Blue", "Yellow"],
+            "respuesta_correcta": 2,
+            "guia": "Colors in English: RED=rojo, BLUE=azul, GREEN=verde, YELLOW=amarillo, ORANGE=naranja, PURPLE=morado, PINK=rosado, WHITE=blanco, BLACK=negro, BROWN=café.",
+            "puntos": 10
+          },
+          {
+            "id": "ING-U1-Q003",
+            "tipo": "armar_oracion",
+            "dificultad": "facil",
+            "pregunta": "Arrange the words to form a sentence: (Ordena las palabras para formar una oración)",
+            "palabras": ["a", "I", "student", "am"],
+            "oracion_correcta": "I am a student",
+            "guia": "In English, the verb 'to be' (ser/estar): I AM, You ARE, He/She/It IS, We ARE, They ARE. 'I am a student' = Yo soy un/una estudiante.",
+            "puntos": 15
+          },
+          {
+            "id": "ING-U1-Q004",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Complete with the correct number: (Completa con el número correcto en inglés)",
+            "texto": "One, ______, three, ______, five, six, ______, eight, ______, ten.",
+            "espacios": ["two", "four", "seven", "nine"],
+            "posiciones": [0, 1, 2, 3],
+            "guia": "Numbers 1-10: ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN. Numbers 11-20: ELEVEN, TWELVE, THIRTEEN, FOURTEEN, FIFTEEN, SIXTEEN, SEVENTEEN, EIGHTEEN, NINETEEN, TWENTY.",
+            "puntos": 15
+          },
+          {
+            "id": "ING-U1-Q005",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "How do you say 'Buenos días' in English?",
+            "opciones": ["Good night", "Good afternoon", "Good morning", "Good evening"],
+            "respuesta_correcta": 2,
+            "guia": "Greetings in English: GOOD MORNING = Buenos días (hasta el mediodía). GOOD AFTERNOON = Buenas tardes (de 12pm a 6pm). GOOD EVENING = Buenas noches (saludo nocturno). GOOD NIGHT = Buenas noches (para despedirse y dormir).",
+            "puntos": 10
+          },
+          {
+            "id": "ING-U1-Q006",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Match the days of the week: (Une los días de la semana)",
+            "pares_correctos": [
+              {"izquierda": "Monday", "derecha": "Lunes"},
+              {"izquierda": "Tuesday", "derecha": "Martes"},
+              {"izquierda": "Wednesday", "derecha": "Miércoles"},
+              {"izquierda": "Thursday", "derecha": "Jueves"},
+              {"izquierda": "Friday", "derecha": "Viernes"},
+              {"izquierda": "Saturday", "derecha": "Sábado"},
+              {"izquierda": "Sunday", "derecha": "Domingo"}
+            ],
+            "guia": "Days of the week: MONDAY=Lunes, TUESDAY=Martes, WEDNESDAY=Miércoles, THURSDAY=Jueves, FRIDAY=Viernes, SATURDAY=Sábado, SUNDAY=Domingo. The week starts on Sunday in some countries, Monday in others.",
+            "puntos": 20
+          }
+        ]
+      },
+      {
+        "id": "ING-U2",
+        "titulo": "My family and body parts",
+        "descripcion": "Identifies family members and body parts in English.",
+        "preguntas": [
+          {
+            "id": "ING-U2-Q001",
+            "tipo": "unir_correspondiente",
+            "dificultad": "facil",
+            "pregunta": "Match the family member with its Spanish translation:",
+            "pares_correctos": [
+              {"izquierda": "Mother", "derecha": "Madre"},
+              {"izquierda": "Father", "derecha": "Padre"},
+              {"izquierda": "Brother", "derecha": "Hermano"},
+              {"izquierda": "Sister", "derecha": "Hermana"},
+              {"izquierda": "Grandmother", "derecha": "Abuela"},
+              {"izquierda": "Grandfather", "derecha": "Abuelo"}
+            ],
+            "guia": "Family members: MOTHER=madre, FATHER=padre, BROTHER=hermano, SISTER=hermana, GRANDMOTHER=abuela, GRANDFATHER=abuelo, UNCLE=tío, AUNT=tía, COUSIN=primo/prima.",
+            "puntos": 15
+          },
+          {
+            "id": "ING-U2-Q002",
+            "tipo": "seleccion_multiple",
+            "dificultad": "facil",
+            "pregunta": "Which of the following are body parts in English? (¿Cuáles son partes del cuerpo en inglés?)",
+            "opciones": [
+              "Head",
+              "Table",
+              "Nose",
+              "Monday",
+              "Hand",
+              "Chair"
+            ],
+            "respuestas_correctas": [0, 2, 4],
+            "guia": "Body parts: HEAD=cabeza, NOSE=nariz, HAND=mano, EYE=ojo, EAR=oreja, MOUTH=boca, ARM=brazo, LEG=pierna, FOOT=pie, HAIR=cabello.",
+            "puntos": 15
+          }
+        ]
+      }
+    ]
+  },
+  "guias_repaso": {
+    "lengua": {
+      "temas_clave": [
+        "Elementos de la comunicación: emisor, mensaje, canal, receptor, código",
+        "Partes de la oración: sujeto (de quién se habla) y predicado (qué se dice)",
+        "Clases de palabras: sustantivo (nombre), verbo (acción), adjetivo (descripción)",
+        "Clasificación por acento: aguda (última sílaba), grave (penúltima), esdrújula (antepenúltima)",
+        "Tipos de textos: narrativo (cuentos), informativo (noticias), instructivo (recetas)",
+        "Partes del cuento: introducción, nudo y desenlace",
+        "Separación silábica: cada sílaba debe tener al menos una vocal"
+      ],
+      "trucos_memoria": [
+        "Para recordar AGUDA, GRAVE, ESDRÚJULA: 'Ana Gana Espléndidamente'",
+        "El EMISOR EMITE y el RECEPTOR RECIBE",
+        "VERBO = ACCIÓN (verbos son palabras que puedes hacer: correr, saltar, reír)",
+        "SUSTANTIVO = NOMBRE (los sustantivos se pueden nombrar con 'el/la': el árbol, la mesa)"
+      ]
+    },
+    "matematica": {
+      "temas_clave": [
+        "Valor posicional: UM(miles), C(centenas), D(decenas), U(unidades)",
+        "Suma con reagrupación: llevamos cuando la suma supera 9",
+        "Resta con reagrupación: pedimos prestado cuando no podemos restar",
+        "Multiplicación como suma repetida: 4×3 = 4+4+4 = 12",
+        "División: dividendo ÷ divisor = cociente (resto R)",
+        "Figuras 2D: triángulo(3), cuadrado(4), pentágono(5), hexágono(6)",
+        "Fracciones: numerador/denominador"
+      ],
+      "tablas_multiplicar": {
+        "2": [2,4,6,8,10,12,14,16,18,20],
+        "3": [3,6,9,12,15,18,21,24,27,30],
+        "4": [4,8,12,16,20,24,28,32,36,40],
+        "5": [5,10,15,20,25,30,35,40,45,50],
+        "6": [6,12,18,24,30,36,42,48,54,60],
+        "7": [7,14,21,28,35,42,49,56,63,70],
+        "8": [8,16,24,32,40,48,56,64,72,80],
+        "9": [9,18,27,36,45,54,63,72,81,90],
+        "10": [10,20,30,40,50,60,70,80,90,100]
+      }
+    },
+    "ciencias_naturales": {
+      "temas_clave": [
+        "Sistemas del cuerpo: digestivo, respiratorio, circulatorio, nervioso, óseo",
+        "Fotosíntesis: luz + agua + CO₂ → glucosa + O₂",
+        "Ciclo del agua: evaporación → condensación → precipitación",
+        "Regiones del Ecuador: Costa, Sierra, Amazonia, Galápagos",
+        "Clasificación animal: mamíferos, aves, reptiles, peces, anfibios",
+        "Ecuador megadiverso: mayor biodiversidad por km² del mundo"
+      ]
+    },
+    "estudios_sociales": {
+      "temas_clave": [
+        "Ecuador: capital Quito, 24 provincias, 4 regiones",
+        "Límites: Colombia (norte), Perú (sur y este), Océano Pacífico (oeste)",
+        "Independencia: 10 de agosto de 1809 (Primer Grito)",
+        "Bandera: amarillo, azul y rojo (de arriba abajo)",
+        "Moneda: dólar americano desde el año 2000",
+        "Principal exportación: banano (también cacao, camarón, rosas, petróleo)",
+        "Símbolos: cóndor (ave), rosa (flor), ceibo (árbol)"
+      ]
+    },
+    "ingles": {
+      "temas_clave": [
+        "Saludos: Good morning, Good afternoon, Good evening, Good night",
+        "Días: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+        "Colores: red, blue, green, yellow, orange, purple, white, black",
+        "Familia: mother, father, brother, sister, grandmother, grandfather",
+        "Números 1-10: one, two, three, four, five, six, seven, eight, nine, ten",
+        "Verbo to be: I am, You are, He/She/It is, We are, They are"
+      ]
+    }
+  }
+}
