@@ -123,7 +123,7 @@ const Questions = (() => {
       <div class="text-input-wrap">
         <input class="text-input-field" id="text-answer" type="text" placeholder="Escribe tu respuesta aquí..." autocomplete="off" autocorrect="off" spellcheck="false">
         <div style="display:flex;gap:.5rem;">
-          <button class="btn-hint" onclick="Questions.showHint('${escapeStr(q.guia)}')">💡 Pista</button>
+          <button class="btn-hint" onclick="Questions.showHint('${escapeStr(q.pista || '')}', true)">💡 Pista</button>
           <button class="btn-submit-text" onclick="Questions.submitTextAnswer()" style="flex:1;">Verificar ✓</button>
         </div>
       </div>
@@ -162,7 +162,7 @@ const Questions = (() => {
       <p class="q-text">${q.pregunta}</p>
       <div class="fill-text">${textHtml}</div>
       <div style="margin-top:1rem;display:flex;gap:.5rem;">
-        <button class="btn-hint" onclick="Questions.showHint('${escapeStr(q.guia)}')">💡 Pista</button>
+        <button class="btn-hint" onclick="Questions.showHint('${escapeStr(q.pista || '')}', true)">💡 Pista</button>
         <button class="btn-submit-text" onclick="Questions.submitFill()" style="flex:1;">Verificar ✓</button>
       </div>
     `;
@@ -578,9 +578,32 @@ const Questions = (() => {
   }
 
   // ─── UTILITY ──────────────────────────────────────────────────────────
-  function showHint(guia) {
-    document.getElementById('guide-text').textContent = guia;
-    document.getElementById('guide-overlay').classList.remove('hidden');
+  function showHint(text, isPista) {
+    const overlay = document.getElementById('guide-overlay');
+    const guideText = document.getElementById('guide-text');
+    const guideTitle = document.getElementById('guide-title');
+
+    if (isPista) {
+      // Pre-answer hint: never reveals the answer
+      if (guideTitle) {
+        guideTitle.textContent = '💡 Pista de estudio';
+        guideTitle.style.color = '#FFD93D';
+      }
+      if (!text || text.trim() === '') {
+        guideText.textContent = 'Piensa con calma en los conceptos del tema. Recuerda lo que has estudiado en clase. ¡Tú puedes lograrlo!';
+      } else {
+        guideText.textContent = text;
+      }
+    } else {
+      // Post-answer explanation: full guia with answer
+      if (guideTitle) {
+        guideTitle.textContent = '📖 Explicación completa';
+        guideTitle.style.color = '#06D6A0';
+      }
+      guideText.textContent = text || '';
+    }
+
+    overlay.classList.remove('hidden');
   }
 
   function escapeStr(str) {

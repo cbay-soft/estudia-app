@@ -355,7 +355,16 @@ const App = (() => {
       document.getElementById('feedback-spelling').style.display = 'none';
     }
 
-    document.getElementById('feedback-guia').textContent = q.guia || '';
+    // Post-answer: show a "See explanation" button (NOT auto-reveal, user chooses)
+    const guiaEl = document.getElementById('feedback-guia');
+    if (q.guia) {
+      guiaEl.innerHTML = `<button onclick="Questions.showHint('${q.guia.replace(/'/g, "&#39;").replace(/"/g, '&quot;')}', false)" 
+        style="margin-top:.5rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:var(--text1);padding:.5rem 1rem;border-radius:.5rem;cursor:pointer;font-size:.82rem;width:100%;">
+        📖 Ver explicación completa
+      </button>`;
+    } else {
+      guiaEl.innerHTML = '';
+    }
 
     // Update score strip
     document.getElementById('quiz-correct-count').textContent = state.quiz.correct;
