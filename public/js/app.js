@@ -26,7 +26,7 @@ const App = (() => {
     { id: '6to_egb', label: '6to EGB', emoji: '🌳', desc: 'Subnivel Medio · 11-12 años', available: false, file: null },
     { id: '7mo_egb', label: '7mo EGB', emoji: '⚡', desc: 'Subnivel Medio · 12-13 años', available: false, file: null },
     { id: 'bachillerato', label: 'Bachillerato', emoji: '🎓', desc: 'Ingreso BGU · 14-15 años', available: false, file: null },
-    { id: 'sercop', label: 'Sercop', emoji: '🎓', desc: 'Servicio de Compras Públicas', available: false, file: 'sercop.json' }
+    { id: 'sercop', label: 'Sercop', emoji: '🎓', desc: 'Servicio de Compras Públicas', available: true, file: 'sercop.json' }
   ];
 
   // ─── INIT ─────────────────────────────────────────────────────────────
