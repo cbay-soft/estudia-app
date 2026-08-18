@@ -1,0 +1,911 @@
+{
+  "meta": {
+    "nivel": "Certificación SERCOP Master",
+    "subnivel": "Operadores y Administradores (Completo)",
+    "pais": "Ecuador",
+    "version": "5.0.0",
+    "total_preguntas_aprox": 300,
+    "materias": [
+      "compras_publicas"
+    ]
+  },
+  "compras_publicas": {
+    "nombre": "Sistema Nacional de Contratación Pública",
+    "icono": "⚖️",
+    "color": "#B91C1C",
+    "unidades": [
+      {
+        "id": "SERCOP-B1-U1",
+        "titulo": "Bloque 1: Fase Preparatoria, Planificación y Presupuestos",
+        "preguntas": [
+          {
+            "id": "B1-U1-Q01",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuál es el plazo máximo normativo para que las Entidades Contratantes publiquen el Plan Anual de Contratación (PAC) en el Portal Institucional del SERCOP?",
+            "opciones": [
+              "Dentro de los 15 días del mes de enero de cada año",
+              "Hasta el 31 de diciembre del año fiscal anterior",
+              "Dentro de los primeros 15 días tras la aprobación del Presupuesto General del Estado",
+              "Hasta el 28 de febrero de cada año"
+            ],
+            "respuesta_correcta": 0,
+            "guia": "Según el Art. 22 de la LOSNCP, las Entidades Contratantes formularán y publicarán el PAC dentro de los 15 días del mes de enero de cada año. Solo se ajustará este plazo si el Presupuesto General del Estado (PGE) no se ha aprobado, como ocurre en años de elecciones presidenciales.",
+            "puntos": 10
+          },
+          {
+            "id": "B1-U1-Q02",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Qué elementos SON OBLIGATORIOS para justificar y calcular el presupuesto referencial en un Estudio de Mercado para bienes y servicios? (Selecciona TODAS las correctas)",
+            "opciones": [
+              "Análisis exhaustivo del Catálogo Electrónico para verificar si el bien está normalizado",
+              "Proformas de proveedores internacionales apostilladas",
+              "Análisis de los precios actuales de mercado (se recomiendan al menos 3 proformas)",
+              "Histórico de contrataciones similares realizadas por la misma entidad en años anteriores",
+              "Certificado de origen de los materiales a utilizar"
+            ],
+            "respuestas_correctas": [
+              0,
+              2,
+              3
+            ],
+            "guia": "La resolución del SERCOP sobre estudios de mercado exige analizar proformas actuales, precios históricos de la entidad, procesos similares de otras instituciones y el Catálogo Electrónico. No exige proformas internacionales apostilladas ni certificados de origen en esta etapa temprana.",
+            "puntos": 15
+          },
+          {
+            "id": "B1-U1-Q03",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "¿Cómo se llama el documento que emite el área financiera y que es REQUISITO INDISPENSABLE para iniciar cualquier proceso, garantizando que existe dinero para pagar el contrato?",
+            "respuesta_correcta": "Certificacion Presupuestaria",
+            "respuestas_aceptadas": [
+              "Certificacion Presupuestaria",
+              "Certificación presupuestaria",
+              "certificacion"
+            ],
+            "guia": "El Art. 24 de la LOSNCP establece que ninguna entidad iniciará un procedimiento de contratación sin la respectiva Certificación Presupuestaria, la cual asegura la existencia presente y futura de recursos suficientes.",
+            "puntos": 10,
+            "tolerancia_tipeo": true,
+            "pista": "Está compuesto por dos palabras. Empieza con 'Certificación'."
+          },
+          {
+            "id": "B1-U1-Q04",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "CASO: Un analista de compras está elaborando las Especificaciones Técnicas para adquirir camionetas para el municipio. En el documento detalla que requiere 'Camionetas doble cabina, motor 2.4L, marca Chevrolet, modelo D-Max'. ¿Qué infracción está cometiendo?",
+            "opciones": [
+              "Ninguna, es necesario ser específico para obtener un buen producto.",
+              "Vulneración del Principio de Trato Justo al direccionar el proceso hacia una marca específica.",
+              "Incumplimiento de la presentación de desagregación tecnológica.",
+              "Omisión del cálculo del Valor Agregado Ecuatoriano (VAE)."
+            ],
+            "respuesta_correcta": 1,
+            "guia": "El Art. 31 del Reglamento de la LOSNCP prohíbe terminantemente hacer referencia a marcas de fábrica, patentes, diseños o tipos de origen en las Especificaciones Técnicas o Términos de Referencia, ya que esto limita la concurrencia y direcciona el contrato.",
+            "puntos": 15
+          },
+          {
+            "id": "B1-U1-Q05",
+            "tipo": "texto_libre",
+            "dificultad": "intermedio",
+            "pregunta": "¿Qué significan las siglas VAE, utilizadas en la fase preparatoria para determinar las preferencias hacia la industria y mano de obra nacional?",
+            "respuesta_correcta": "Valor Agregado Ecuatoriano",
+            "respuestas_aceptadas": [
+              "Valor Agregado Ecuatoriano",
+              "valor agregado ecuatoriano",
+              "Valor agregado Ecuatoriano"
+            ],
+            "guia": "El Valor Agregado Ecuatoriano (VAE) es el porcentaje de componentes de origen nacional que tiene un bien o servicio. El SERCOP define umbrales mínimos de VAE por cada CPC para catalogar una oferta como nacional o extranjera.",
+            "puntos": 15,
+            "tolerancia_tipeo": true,
+            "pista": "La 'V' es Valor, la 'A' es Agregado..."
+          },
+          {
+            "id": "B1-U1-Q06",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Relaciona correctamente el tipo de requerimiento con el documento técnico que lo sustenta en la Fase Preparatoria:",
+            "pares_correctos": [
+              {
+                "izquierda": "Bienes y Equipos",
+                "derecha": "Especificaciones Técnicas"
+              },
+              {
+                "izquierda": "Ejecución de Obras Públicas",
+                "derecha": "Planos, Especificaciones Técnicas y Desagregación Tecnológica"
+              },
+              {
+                "izquierda": "Servicios Generales",
+                "derecha": "Términos de Referencia (TDR)"
+              },
+              {
+                "izquierda": "Consultoría",
+                "derecha": "Términos de Referencia con enfoque intelectual"
+              }
+            ],
+            "guia": "Regla nemotécnica: Los Bienes y Obras se 'especifican' (Especificaciones Técnicas) porque son tangibles. Los Servicios y Consultorías se 'refieren' (Términos de Referencia) porque son intangibles o intelectuales.",
+            "puntos": 20
+          },
+          {
+            "id": "B1-U1-Q07",
+            "tipo": "seleccion_unica",
+            "dificultad": "dificil",
+            "pregunta": "CASO PRÁCTICO: Se va a contratar el mantenimiento del sistema eléctrico institucional. El presupuesto de la entidad es de $8,000. El analista revisa el PAC y este requerimiento NO consta planificado. Sabiendo que el proceso urge, ¿cuál es la única vía legal de contratación que EXIME la obligatoriedad de constar en el PAC para este monto?",
+            "opciones": [
+              "Subasta Inversa Electrónica de Emergencia",
+              "Ferias Inclusivas Comunitarias",
+              "Procedimiento de Ínfima Cuantía",
+              "Catálogo Electrónico Dinámico"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "La Ínfima Cuantía es el único procedimiento regular que no requiere constar previamente en el Plan Anual de Contratación (PAC), siempre que su monto no supere el límite legal establecido por el coeficiente aplicable al Presupuesto General del Estado del año en curso.",
+            "puntos": 20
+          },
+          {
+            "id": "B1-U1-Q08",
+            "tipo": "completar_espacios",
+            "dificultad": "dificil",
+            "pregunta": "Completa el siguiente enunciado legal sobre Inhabilidades (Art. 62 LOSNCP):",
+            "texto": "No podrán celebrar contratos con la Entidad Contratante los servidores públicos de la misma entidad, ni sus cónyuges, ni sus parientes hasta el ______ grado de consanguinidad y ______ grado de afinidad.",
+            "espacios": [
+              "cuarto",
+              "segundo"
+            ],
+            "posiciones": [
+              0,
+              1
+            ],
+            "guia": "Esta inhabilidad es fundamental para prevenir conflictos de interés. Cuarto grado de consanguinidad incluye hasta primos hermanos; segundo de afinidad incluye cuñados y suegros.",
+            "puntos": 20,
+            "pista": "El primer espacio es el número 4 en letras. El segundo espacio es el número 2 en letras."
+          },
+          {
+            "id": "B1-U1-Q09",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "De acuerdo con el Art. 4 de la LOSNCP, ¿cuáles de los siguientes son PRINCIPIOS rectores del Sistema Nacional de Contratación Pública? (Selecciona 3)",
+            "opciones": [
+              "Vigencia Tecnológica",
+              "Trato Justo",
+              "Confidencialidad Administrativa",
+              "Oportunidad",
+              "Rentabilidad Financiera del Estado"
+            ],
+            "respuestas_correctas": [
+              0,
+              1,
+              3
+            ],
+            "guia": "Los principios de la LOSNCP son: Legalidad, Trato Justo, Igualdad, Calidad, Vigencia Tecnológica, Oportunidad, Concurrencia, Transparencia, Publicidad y Participación Nacional.",
+            "puntos": 15
+          },
+          {
+            "id": "B1-U1-Q10",
+            "tipo": "texto_libre",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cómo se conoce a la base de datos pública y obligatoria donde deben inscribirse las personas naturales y jurídicas (nacionales o extranjeras) para poder participar y proveer al Estado ecuatoriano?",
+            "respuesta_correcta": "Registro Unico de Proveedores",
+            "respuestas_aceptadas": [
+              "Registro Unico de Proveedores",
+              "Registro único de proveedores",
+              "RUP",
+              "rup"
+            ],
+            "guia": "El Registro Único de Proveedores (RUP) es administrado por el SERCOP y su registro es requisito indispensable, salvo contadas excepciones (como algunos casos de ínfima cuantía o contratos con extranjeros no domiciliados bajo ciertos regímenes).",
+            "puntos": 10,
+            "tolerancia_tipeo": true,
+            "pista": "Sus siglas son RUP."
+          },
+
+          {
+            "id": "B2-U2-Q01",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "Si una entidad requiere comprar resmas de papel (bien normalizado) y estas se encuentran disponibles en el Catálogo Electrónico, ¿qué acción debe tomar el operador de compras?",
+            "opciones": [
+              "Lanzar una Subasta Inversa Electrónica para buscar un mejor precio",
+              "Generar la orden de compra directamente a través del Catálogo Electrónico, ya que su uso es obligatorio",
+              "Realizar una Ínfima Cuantía porque es un suministro de oficina menor",
+              "Pedir 3 proformas para comparar precios físicos con el Catálogo"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Art. 46 de la LOSNCP: Las entidades están obligadas a consultar el Catálogo Electrónico previamente a establecer procesos de adquisición. Si el bien o servicio consta en el Catálogo, DEBE adquirirse mediante este procedimiento dinámico.",
+            "puntos": 10
+          },
+          {
+            "id": "B2-U2-Q02",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "Durante la evaluación de ofertas, la Comisión Técnica detecta varios errores en los documentos presentados por los proveedores. ¿Cuáles de los siguientes se consideran errores de FORMA y, por tanto, SON CONVALIDABLES? (Selecciona TODAS las correctas)",
+            "opciones": [
+              "Falta de firma electrónica en el formulario de la oferta económica",
+              "Error tipográfico en la dirección comercial de la empresa que no altera su registro en el RUP",
+              "No adjuntar la Garantía de Seriedad de Oferta cuando los pliegos lo exigían",
+              "Falta de foliado (numeración) o desorden en las páginas de la oferta",
+              "Ofrecer un plazo de ejecución mayor al máximo establecido en los pliegos"
+            ],
+            "respuestas_correctas": [
+              1,
+              3
+            ],
+            "guia": "Art. 72 de la LOSNCP. La convalidación aplica únicamente para errores de forma (omisiones intrascendentes como foliado o tipeo). Falta de firmas, ausencia de garantías o alteración de valores y plazos son errores de FONDO que provocan descalificación automática.",
+            "puntos": 20
+          },
+          {
+            "id": "B2-U2-Q03",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En un procedimiento de Subasta Inversa Electrónica (SIE), si tras la fase de calificación técnica solo existe UN (1) proveedor habilitado para la puja, ¿cuál es el paso obligatorio a seguir según la normativa?",
+            "opciones": [
+              "Declarar desierto el proceso inmediatamente por falta de competencia",
+              "Adjudicar el contrato al valor referencial inicial propuesto por la entidad",
+              "Realizar una sesión de negociación en la que el proveedor debe rebajar su oferta económica (al menos un 5%)",
+              "Permitir que el proveedor único puje de forma ficticia contra el sistema del SERCOP"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "Cuando hay un solo oferente habilitado en SIE, el sistema no habilita la puja competitiva, sino que pasa a la etapa de Negociación. El SERCOP exige que la negociación logre, por regla general, una rebaja de al menos el 5% del presupuesto referencial.",
+            "puntos": 15
+          },
+          {
+            "id": "B2-U2-Q04",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En el procedimiento de Menor Cuantía para OBRAS, el presupuesto referencial es fijo y no hay competencia económica (todos aceptan el mismo precio). ¿Cómo determina el sistema del SERCOP al proveedor ganador entre todos los que calificaron técnicamente?",
+            "opciones": [
+              "A través de un sorteo electrónico automático y público realizado por el portal del SERCOP",
+              "La Máxima Autoridad elige discrecionalmente al mejor perfil",
+              "Gana el proveedor que tenga mayor cantidad de obras previas acreditadas",
+              "Se adjudica al proveedor cuya dirección física sea la más cercana a la obra"
+            ],
+            "respuesta_correcta": 0,
+            "guia": "La Menor Cuantía de Obras busca equidad. Como los proveedores aceptan el presupuesto de la entidad (adhesión al presupuesto), el ganador se define mediante un Sorteo Electrónico automático entre todos los calificados.",
+            "puntos": 15
+          },
+          {
+            "id": "B2-U2-Q05",
+            "tipo": "completar_espacios",
+            "dificultad": "facil",
+            "pregunta": "Completa la norma sobre la declaratoria de procedimiento desierto:",
+            "texto": "La Máxima Autoridad declarará ______ el procedimiento cuando no se hubieren presentado ______, o cuando todas hayan sido inhabilitadas o ______ por la comisión técnica.",
+            "espacios": [
+              "desierto",
+              "ofertas",
+              "rechazadas"
+            ],
+            "posiciones": [
+              0,
+              1,
+              2
+            ],
+            "guia": "La declaratoria de desierto es un acto administrativo mediante resolución motivada, que cancela el proceso por falta de participantes válidos o porque las ofertas superan el presupuesto referencial.",
+            "puntos": 15,
+            "pista": "Cuando un proceso falla porque nadie participa o todos quedan descalificados, se dice que el proceso quedó d____. Los postulantes suben o_____."
+          },
+          {
+            "id": "B2-U2-Q06",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Relaciona cada procedimiento de contratación con su naturaleza o regla específica:",
+            "pares_correctos": [
+              {
+                "izquierda": "Ínfima Cuantía",
+                "derecha": "Compras menores de pago directo sin necesidad de constar en el PAC"
+              },
+              {
+                "izquierda": "Cotización",
+                "derecha": "Aplicación estricta de parámetros de preferencia local (cantón/provincia)"
+              },
+              {
+                "izquierda": "Consultoría Directa",
+                "derecha": "Contratación de servicios intelectuales sin concurso público"
+              },
+              {
+                "izquierda": "Ferias Inclusivas",
+                "derecha": "Fomenta la participación exclusiva de MYPES y actores de la EPS"
+              }
+            ],
+            "guia": "Conocer los alcances de cada procedimiento es clave para elegir el correcto: Ferias para sector social, Ínfima para urgencias/caja chica, Cotización para montos medios con preferencia local, Consultoría para estudios intelectuales.",
+            "puntos": 20
+          },
+          {
+            "id": "B2-U2-Q07",
+            "tipo": "texto_libre",
+            "dificultad": "dificil",
+            "pregunta": "Según la ley, ¿hasta cuántas horas antes de la fecha límite fijada para la entrega de ofertas puede la Máxima Autoridad CANCELAR un procedimiento de contratación sin que haya lugar a indemnizaciones?",
+            "respuesta_correcta": "24",
+            "respuestas_aceptadas": [
+              "24",
+              "24 horas",
+              "veinticuatro",
+              "veinticuatro horas"
+            ],
+            "guia": "Art. 34 de la LOSNCP: La declaratoria de cancelación solo podrá realizarse hasta 24 horas antes de la fecha y hora fijadas para la entrega de ofertas. Pasado ese límite, no se puede cancelar el proceso por esta vía.",
+            "puntos": 20,
+            "tolerancia_tipeo": true,
+            "pista": "Equivale a un día entero. Escribe el número."
+          },
+          {
+            "id": "B2-U2-Q08",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Quiénes conforman OBLIGATORIAMENTE la Comisión Técnica en los procedimientos de contratación que la requieren (como Licitación o Cotización)? (Selecciona las 3 correctas)",
+            "opciones": [
+              "Un profesional delegado por la Máxima Autoridad, quien la presidirá",
+              "El Director del SERCOP o su delegado distrital",
+              "El titular del área requirente o su delegado",
+              "Un profesional afín al objeto de la contratación designado por la entidad",
+              "Un delegado de la Contraloría General del Estado"
+            ],
+            "respuestas_correctas": [
+              0,
+              2,
+              3
+            ],
+            "guia": "Art. 18 Reglamento LOSNCP. La Comisión Técnica está integrada por: 1) El delegado de la máxima autoridad (preside); 2) El titular del área requirente; y 3) Un profesional afín al objeto del contrato. El SERCOP y Contraloría NO integran estas comisiones.",
+            "puntos": 20
+          },
+          {
+            "id": "B2-U2-Q09",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "¿Qué significan las siglas SIE, que corresponden al procedimiento dinámico utilizado para adquirir bienes y servicios normalizados donde los proveedores pujan hacia la baja?",
+            "respuesta_correcta": "Subasta Inversa Electronica",
+            "respuestas_aceptadas": [
+              "Subasta Inversa Electronica",
+              "Subasta Inversa Electrónica",
+              "subasta inversa electronica",
+              "subasta inversa"
+            ],
+            "guia": "La Subasta Inversa Electrónica (SIE) es uno de los procedimientos más utilizados en el Estado, ya que asegura la transparencia al realizarse las pujas económicas en tiempo real a través del portal SOCE.",
+            "puntos": 10,
+            "tolerancia_tipeo": true,
+            "pista": "La 'S' es Subasta, la 'I' es Inversa, la 'E' es un medio digital..."
+          },
+          {
+            "id": "B2-U2-Q10",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "La contratación de servicios de 'Consultoría' (como fiscalización de obras, estudios de ingeniería o auditorías financieras) NO se puede realizar mediante:",
+            "opciones": [
+              "Concurso Público",
+              "Subasta Inversa Electrónica",
+              "Contratación Directa",
+              "Lista Corta"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Los servicios de consultoría son de naturaleza intelectual, por lo tanto NO SON NORMALIZADOS. Al no ser normalizados, la ley prohíbe que se contraten mediante Subasta Inversa Electrónica, donde prima únicamente el precio más bajo.",
+            "puntos": 15
+          },
+
+          {
+            "id": "B3-U3-Q01",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿A qué porcentaje del valor total del contrato debe equivaler la Garantía de Fiel Cumplimiento, como regla general?",
+            "opciones": [
+              "2%",
+              "5%",
+              "10%",
+              "15%"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Art. 74 de la LOSNCP: Para seguridad del cumplimiento del contrato y para responder por las obligaciones que contrajere frente a terceros, el contratista rendirá una garantía equivalente al 5% del valor de aquel.",
+            "puntos": 10
+          },
+          {
+            "id": "B3-U3-Q02",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuál es la vigencia requerida que debe tener obligatoriamente la Garantía por Anticipo entregada por el contratista?",
+            "opciones": [
+              "Hasta la firma de la recepción provisional",
+              "Un año calendario y debe renovarse obligatoriamente",
+              "Hasta que el anticipo haya sido devengado y amortizado contablemente en su totalidad",
+              "Hasta que el contratista demuestre la compra de los materiales"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "Art. 75 LOSNCP: La garantía por anticipo (del 100% del valor a entregarse) debe mantenerse vigente de forma ininterrumpida hasta que el contratista haya devengado o amortizado en su totalidad dicho anticipo a través de planillas o entregas.",
+            "puntos": 15
+          },
+          {
+            "id": "B3-U3-Q03",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Cuáles son obligaciones directas e ineludibles del Administrador de Contrato? (Selecciona 3 correctas)",
+            "opciones": [
+              "Autorizar o solicitar el pago de planillas o facturas al área financiera",
+              "Adjudicar el contrato al proveedor ganador y emitir la resolución",
+              "Calcular y notificar el cobro de multas en caso de retrasos",
+              "Vigilar celosamente la vigencia de las garantías contractuales y pedir su renovación",
+              "Declarar unilateralmente el procedimiento precontractual desierto"
+            ],
+            "respuestas_correctas": [
+              0,
+              2,
+              3
+            ],
+            "guia": "El Administrador del Contrato actúa en la Fase Contractual (una vez firmado el contrato). La adjudicación y declaratoria de desierto corresponden a la Máxima Autoridad en la Fase Precontractual.",
+            "puntos": 20
+          },
+          {
+            "id": "B3-U3-Q04",
+            "tipo": "texto_libre",
+            "dificultad": "dificil",
+            "pregunta": "Según la LOSNCP para la ejecución de obras, la suma de los Contratos Complementarios, Órdenes de Trabajo y Órdenes de Cambio NO podrá exceder el ____ por ciento del valor actualizado del contrato principal. (Escribe solo el número)",
+            "respuesta_correcta": "8",
+            "respuestas_aceptadas": [
+              "8",
+              "ocho",
+              "8%"
+            ],
+            "guia": "Art. 89 LOSNCP: El conjunto de contratos complementarios y demás modificaciones por rubros nuevos o variaciones de cantidades no puede superar el límite estricto del 8% del valor del contrato principal.",
+            "puntos": 20,
+            "tolerancia_tipeo": true,
+            "pista": "Es un número menor a 10 y mayor a 5."
+          },
+          {
+            "id": "B3-U3-Q05",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Según la normativa actual del SERCOP, ¿sobre qué base económica se debe calcular la multa diaria por retraso en la entrega de bienes o servicios?",
+            "opciones": [
+              "Sobre el 100% del valor total del contrato original",
+              "Sobre el monto de la Garantía de Fiel Cumplimiento",
+              "Sobre el porcentaje o valor de las obligaciones que se encuentran pendientes de ejecutarse",
+              "Sobre el valor total del anticipo otorgado al contratista"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "La normativa prohíbe calcular multas sobre el total del contrato si ya existieron entregas parciales válidas. La multa se calcula diaria y proporcionalmente SOLO sobre el porcentaje o valor de lo que el proveedor no ha entregado a tiempo.",
+            "puntos": 15
+          },
+          {
+            "id": "B3-U3-Q06",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Relaciona la causa o tipo de terminación del contrato con su característica principal:",
+            "pares_correctos": [
+              {
+                "izquierda": "Terminación Unilateral",
+                "derecha": "Declarada por la entidad ante incumplimientos graves del contratista o quiebra"
+              },
+              {
+                "izquierda": "Terminación por Mutuo Acuerdo",
+                "derecha": "Conveniencia de ambas partes por causas imprevistas que impiden continuar la ejecución"
+              },
+              {
+                "izquierda": "Cumplimiento del Contrato",
+                "derecha": "Recepción definitiva, satisfacción de la entidad y liquidación total"
+              },
+              {
+                "izquierda": "Sentencia Ejecutoriada",
+                "derecha": "Decisión de un juez o tribunal que declara nulo o terminado el contrato"
+              }
+            ],
+            "guia": "Existen varias formas de finalizar un contrato (Art. 92 LOSNCP). La más normal es el Cumplimiento, la más conflictiva es la Unilateral, y el Mutuo Acuerdo es la salida pacífica ante imprevistos insalvables.",
+            "puntos": 20
+          },
+          {
+            "id": "B3-U3-Q07",
+            "tipo": "completar_espacios",
+            "dificultad": "dificil",
+            "pregunta": "Completa el enunciado legal exacto sobre la causal de terminación unilateral por acumulación de multas (Art. 94):",
+            "texto": "La Entidad Contratante podrá declarar terminada anticipada y unilateralmente la contratación cuando el valor de las ______ supere el monto de la Garantía de ______ ______.",
+            "espacios": [
+              "multas",
+              "Fiel",
+              "Cumplimiento"
+            ],
+            "posiciones": [
+              0,
+              1,
+              2
+            ],
+            "guia": "Esta es la regla de oro en administración de contratos: si las multas alcanzan el 5% del contrato (que es el valor de la Garantía de Fiel Cumplimiento), el contrato debe terminarse de manera unilateral.",
+            "puntos": 20,
+            "pista": "Si un proveedor se retrasa se le cobran m_____. El límite es la garantía de F_____ C_____."
+          },
+          {
+            "id": "B3-U3-Q08",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "En los contratos de EJECUCIÓN DE OBRAS, ¿qué tiempo debe transcurrir obligatoriamente como regla general entre la suscripción del Acta de Recepción Provisional y el Acta de Recepción Definitiva?",
+            "opciones": [
+              "15 días término",
+              "30 días calendario",
+              "6 meses, a menos que el contrato estipule otro plazo fundamentado",
+              "1 año obligatorio"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "Art. 122 Reglamento LOSNCP. A diferencia de los bienes (que suelen tener una sola recepción), las obras públicas exigen un período de observación de 6 meses tras la Recepción Provisional antes de firmar la Definitiva, para verificar vicios ocultos.",
+            "puntos": 15
+          },
+          {
+            "id": "B3-U3-Q09",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "Cuando a un proveedor se le declara la Terminación Unilateral, la ley manda que el SERCOP lo inscriba en el RUP bajo el estado de Contratista ______________, lo que le impide firmar nuevos contratos con el Estado por 5 años.",
+            "respuesta_correcta": "Incumplido",
+            "respuestas_aceptadas": [
+              "Incumplido",
+              "incumplido",
+              "Contratista incumplido"
+            ],
+            "guia": "Ser declarado 'Contratista Incumplido' es la máxima sanción administrativa para un proveedor en el sistema, marginándolo de las compras públicas por un lapso de 5 años.",
+            "puntos": 10,
+            "tolerancia_tipeo": true,
+            "pista": "Alguien que no cumple sus obligaciones es un..."
+          },
+          {
+            "id": "B3-U3-Q10",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "¿En qué tipos de contrataciones es OBLIGATORIO requerir la Garantía Técnica por parte del proveedor? (Selecciona todas las correctas)",
+            "opciones": [
+              "Adquisición de bienes informáticos y equipos médicos",
+              "Contratación de servicios continuos de conserjería y limpieza",
+              "Adquisición de vehículos, maquinaria y repuestos",
+              "Consultoría para rediseño de procesos institucionales"
+            ],
+            "respuestas_correctas": [
+              0,
+              2
+            ],
+            "guia": "Art. 76 LOSNCP: Las garantías técnicas se exigen en la adquisición de bienes de naturaleza técnica (equipos, vehículos, computadoras, maquinaria) para garantizar su calidad, mantenimiento y repuestos. No aplica a servicios intangibles ni consultorías.",
+            "puntos": 15
+          },
+
+          {
+            "id": "B4-U4-Q01",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Cuál es la vigencia máxima legal que puede tener una Declaratoria de Emergencia institucional para contrataciones bajo este régimen especial?",
+            "opciones": [
+              "30 días calendario",
+              "60 días calendario, no prorrogables",
+              "90 días término",
+              "1 año, dependiendo de la gravedad"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Art. 57 de la LOSNCP: La Máxima Autoridad podrá declarar la emergencia mediante resolución motivada. El plazo de duración de esta declaratoria no podrá ser mayor a 60 días calendario. Vencido este plazo, no se podrán hacer más contrataciones por emergencia.",
+            "puntos": 15
+          },
+          {
+            "id": "B4-U4-Q02",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Cuáles de las siguientes contrataciones están contempladas expresamente dentro de la modalidad de 'Régimen Especial' según el Art. 2 de la LOSNCP? (Selecciona TODAS las correctas)",
+            "opciones": [
+              "Adquisición de fármacos e insumos médicos generales",
+              "Contratos de comunicación social (agencias de publicidad, medios de comunicación)",
+              "Asesoría jurídica y patrocinio legal especializado",
+              "Adquisición de repuestos para vehículos genéricos de la institución",
+              "Contratos relacionados con el Giro Específico del Negocio de empresas públicas"
+            ],
+            "respuestas_correctas": [
+              1,
+              2,
+              4
+            ],
+            "guia": "El Régimen Especial tiene causales muy específicas (Art. 2): Comunicación, Asesoría Jurídica, Giro del Negocio, Obras Artísticas/Científicas, Seguridad Interna/Externa. Los fármacos generales y los repuestos de vehículos van por régimen común o dinámico.",
+            "puntos": 20
+          },
+          {
+            "id": "B4-U4-Q03",
+            "tipo": "texto_libre",
+            "dificultad": "intermedio",
+            "pregunta": "En el procedimiento de Consultoría por Lista Corta, la Entidad Contratante tiene la obligación de invitar de forma directa a un número mínimo y máximo de consultores registrados en el RUP. ¿Cuál es el número MÁXIMO de consultores que se pueden invitar en una Lista Corta? (Escribe el número)",
+            "respuesta_correcta": "6",
+            "respuestas_aceptadas": [
+              "6",
+              "seis"
+            ],
+            "guia": "Art. 41 LOSNCP: Para la contratación mediante Lista Corta, la entidad invitará, a través del Portal, a un mínimo de tres (3) y un máximo de seis (6) consultores de entre los registrados en el RUP.",
+            "puntos": 15,
+            "tolerancia_tipeo": true,
+            "pista": "El mínimo es 3 y el máximo es el doble del mínimo."
+          },
+          {
+            "id": "B4-U4-Q04",
+            "tipo": "seleccion_unica",
+            "dificultad": "dificil",
+            "pregunta": "A diferencia de las adquisiciones de bienes donde prima el precio más bajo, ¿qué criterios predominan obligatoriamente para evaluar y adjudicar un contrato de CONSULTORÍA?",
+            "opciones": [
+              "Exclusivamente el precio más económico",
+              "Únicamente la experiencia de la empresa",
+              "La ponderación combinada de los criterios de Calidad y Costo (siendo la calidad el factor con mayor peso)",
+              "La ubicación geográfica del consultor"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "Art. 43 LOSNCP: En Consultoría (servicios intelectuales), la selección se basará en la evaluación combinada de Calidad y Costo. La Calidad (experiencia, metodología, equipo de trabajo) siempre tendrá un peso mayor en la ponderación matemática que el precio.",
+            "puntos": 20
+          },
+          {
+            "id": "B4-U4-Q05",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Relaciona el procedimiento de Consultoría con su definición correspondiente:",
+            "pares_correctos": [
+              {
+                "izquierda": "Contratación Directa de Consultoría",
+                "derecha": "Se selecciona y adjudica a un (1) solo consultor calificado, usado para montos bajos."
+              },
+              {
+                "izquierda": "Lista Corta",
+                "derecha": "Se invita de 3 a 6 consultores calificados, usado para montos intermedios."
+              },
+              {
+                "izquierda": "Concurso Público",
+                "derecha": "Convocatoria abierta para cualquier consultor habilitado en el RUP, usado para montos altos."
+              }
+            ],
+            "guia": "La consultoría se divide estrictamente por los montos referenciales de la contratación. Directa (montos bajos y selección a dedo pero justificada), Lista Corta (rango medio, invitación cerrada), Concurso Público (montos millonarios, abierto a todos).",
+            "puntos": 15
+          },
+          {
+            "id": "B4-U4-Q06",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es el objetivo principal del procedimiento denominado 'Ferias Inclusivas'?",
+            "opciones": [
+              "Adquirir tecnología de punta del exterior a menor precio",
+              "Contratar estudios de ingeniería complejos",
+              "Fomentar la participación exclusiva de artesanos, micro y pequeñas empresas, y actores de la Economía Popular y Solidaria (EPS)",
+              "Rematar los bienes obsoletos del Estado"
+            ],
+            "respuesta_correcta": 2,
+            "guia": "La Feria Inclusiva (Art. 6 LOSNCP) es un procedimiento diseñado para la inclusión económica. Participan exclusivamente MYPES, EPS y artesanos. Se fija un precio y los oferentes se adhieren a él; no hay competencia por precio sino por distribución equitativa.",
+            "puntos": 10
+          },
+          {
+            "id": "B4-U4-Q07",
+            "tipo": "completar_espacios",
+            "dificultad": "intermedio",
+            "pregunta": "Completa la regla general para la Declaratoria de Emergencia:",
+            "texto": "La ______ ______ de la Entidad Contratante es la única facultada para declarar la emergencia institucional mediante ______ motivada.",
+            "espacios": [
+              "Maxima",
+              "Autoridad",
+              "resolucion"
+            ],
+            "posiciones": [
+              0,
+              1,
+              2
+            ],
+            "guia": "Solo la Máxima Autoridad (Alcalde, Ministro, Gerente) puede declarar la emergencia a través de una resolución fundamentada. Esta facultad es indelegable a otros funcionarios.",
+            "puntos": 15,
+            "pista": "La persona con mayor cargo en la institución (M_____ A_____) y el documento legal que firma (r_____)."
+          },
+          {
+            "id": "B4-U4-Q08",
+            "tipo": "texto_libre",
+            "dificultad": "dificil",
+            "pregunta": "CASO PRÁCTICO: La Ley prohíbe el 'fraccionamiento' de contratos. Si tienes un presupuesto de $10,000 para comprar papel en enero, y otro de $8,000 para comprar el mismo tipo de papel en marzo, ¿puedes hacer dos compras por Ínfima Cuantía separadas?",
+            "respuesta_correcta": "No",
+            "respuestas_aceptadas": [
+              "No",
+              "no",
+              "Falso"
+            ],
+            "guia": "Art. 58 de la LOSNCP prohíbe el fraccionamiento. No se puede dividir la cuantía de la contratación para eludir procedimientos de mayor complejidad. Si los bienes son iguales y la necesidad es previsible, debe consolidarse en un solo proceso (ej. Subasta Inversa o Catálogo).",
+            "puntos": 20,
+            "tolerancia_tipeo": false,
+            "pista": "Responde simplemente 'Sí' o 'No'."
+          },
+          {
+            "id": "B4-U4-Q09",
+            "tipo": "seleccion_unica",
+            "dificultad": "dificil",
+            "pregunta": "¿Qué particularidad tiene el cálculo económico en el procedimiento de Ferias Inclusivas?",
+            "opciones": [
+              "Los proveedores pujan a la baja de forma electrónica.",
+              "El precio es FIJO determinado por la Entidad, y los proveedores se adhieren a ese precio sin posibilidad de rebajarlo.",
+              "Se paga al proveedor que pida el mayor adelanto.",
+              "El precio se define luego de firmar el contrato."
+            ],
+            "respuesta_correcta": 1,
+            "guia": "En las Ferias Inclusivas no existe competencia económica. La entidad establece un precio justo, y todos los proveedores calificados (artesanos, EPS) se adhieren a él. Si hay muchos oferentes calificados, la demanda se reparte proporcionalmente entre todos.",
+            "puntos": 20
+          },
+          {
+            "id": "B4-U4-Q10",
+            "tipo": "seleccion_multiple",
+            "dificultad": "intermedio",
+            "pregunta": "CASO: Un municipio va a contratar artistas musicales nacionales para las festividades del cantón. ¿Qué procedimiento debe aplicar y por qué? (Selecciona la justificación y el procedimiento correctos)",
+            "opciones": [
+              "Subasta Inversa Electrónica",
+              "Régimen Especial",
+              "Por ser obras de naturaleza artística que no pueden ser estandarizadas.",
+              "Por tratarse de un servicio de giro específico del negocio."
+            ],
+            "respuestas_correctas": [
+              1,
+              2
+            ],
+            "guia": "La contratación de obras o actividades artísticas (conciertos, pintores, escultores) está enmarcada en las causales de Régimen Especial (Art. 2 LOSNCP), precisamente porque el arte es subjetivo, único y no puede someterse a una puja por precio o normalizarse.",
+            "puntos": 15
+          },
+
+          {
+            "id": "B5-U5-Q01",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "Dentro de los módulos informáticos del SOCE, ¿para qué sirve específicamente el Módulo de Publicación y Preguntas, Respuestas y Clar aclaraciones (PRAS)?",
+            "opciones": [
+              "Para cargar el presupuesto inicial del Plan Anual de Contratación (PAC)",
+              "Para habilitar el concurso al público y gestionar de forma transaccional las dudas o aclaraciones de los proveedores",
+              "Para registrar los contratos firmados y las garantías de fiel cumplimiento",
+              "Para calificar de forma automática las ofertas técnicas de los proveedores"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "El Módulo PRAS dentro del SOCE es la sección transaccional habilitada para que la entidad publique el proceso y gestione las preguntas, respuestas y aclaraciones solicitadas por los proveedores durante los plazos legales del concurso.",
+            "puntos": 15
+          },
+          {
+            "id": "B5-U5-Q02",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Qué acciones se gestionan directamente a través del Módulo de Creación y Administración de Usuarios en el SOCE? (Selecciona TODAS las correctas)",
+            "opciones": [
+              "Creación de perfiles institucionales internos para los operadores de compras",
+              "Asignación de roles y permisos a los miembros de las comisiones técnicas",
+              "Designación oficial de los administradores de contrato dentro de los procesos",
+              "Ejecución de pujas en tiempo real para las Subastas Inversas",
+              "Liquidación económica definitiva del contrato de obras"
+            ],
+            "respuestas_correctas": [
+              0,
+              1,
+              2
+            ],
+            "guia": "El Módulo de Creación y Administración de Usuarios está destinado exclusivamente a la gestión del talento humano institucional dentro de la plataforma: creación de cuentas, roles de comisiones y designación formal de administradores.",
+            "puntos": 20
+          },
+          {
+            "id": "B5-U5-Q03",
+            "tipo": "texto_libre",
+            "dificultad": "facil",
+            "pregunta": "¿Cuál es la sigla del aplicativo oficial del SERCOP (Módulo de Facilitación de Contratación) utilizado para estructurar las condiciones, parámetros de calificación y cronogramas legales?",
+            "respuesta_correcta": "MFC",
+            "respuestas_aceptadas": [
+              "MFC",
+              "Módulo Productor de Pliegos"
+            ],
+            "guia": "El Módulo de Facilitación de Contratación (MFC) es la herramienta informática oficial de escritorio provista por el SERCOP para generar y estructurar los pliegos y cronogramas de los procesos.",
+            "puntos": 10,
+            "tolerancia_tipeo": true,
+            "pista": "Son 3 letras: M... F... C..."
+          },
+          {
+            "id": "B5-U5-Q04",
+            "tipo": "seleccion_unica",
+            "dificultad": "dificil",
+            "pregunta": "CASO: Un servidor público de una entidad contratante decide adjudicar un proceso de menor cuantía a una empresa de su propiedad usando el nombre de un familiar (prestanombres). ¿Qué tipo de responsabilidad penal o administrativa se configura principalmente?",
+            "opciones": [
+              "Una simple falta administrativa leve que se soluciona con una amonestación escrita.",
+              "Conflicto de intereses, inhabilidad general para contratar, y presunto delito de peculado o tráfico de influencias investigado por Fiscalía y Contraloría.",
+              "Una contravención de tránsito dentro del portal de compras públicas.",
+              "Un error convalidable en el sistema SOCE."
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Contratar con empresas propias o de parientes vulnera el régimen de inhabilidades (Art. 62 LOSNCP) y los principios de ética, constituyendo delitos graves de corrupción, tráfico de influencias y peculado bajo el control de la Contraloría General del Estado y la Ley Penal.",
+            "puntos": 20
+          },
+          {
+            "id": "B5-U5-Q05",
+            "tipo": "unir_correspondiente",
+            "dificultad": "intermedio",
+            "pregunta": "Relaciona cada fase de la Certificación SERCOP por Roles con su enfoque de estudio principal:",
+            "pares_correctos": [
+              {
+                "izquierda": "Eje I: Fase Inicial",
+                "derecha": "Estudio de la LOSNCP, Reglamento, Resoluciones y Principios Éticos"
+              },
+              {
+                "izquierda": "Eje II: Fase Preparatoria",
+                "derecha": "Estudios de mercado, cálculo de presupuestos y elaboración de PAC y TDR"
+              },
+              {
+                "izquierda": "Eje III: Fase Precontractual",
+                "derecha": "Manejo de flujos legales, pliegos, comisiones técnicas y subastas"
+              },
+              {
+                "izquierda": "Eje IV: Fase Contractual",
+                "derecha": "Gestión de garantías, multas, contratos complementarios y actas de recepción"
+              }
+            ],
+            "guia": "La malla oficial de la Certificación SERCOP evalúa de forma holística todo el ciclo de las compras públicas dividido en estos cuatro grandes ejes de conocimiento.",
+            "puntos": 20
+          },
+          {
+            "id": "B5-U5-Q06",
+            "tipo": "seleccion_unica",
+            "dificultad": "intermedio",
+            "pregunta": "¿Qué entidad del Estado ecuatoriano tiene la atribución constitucional y legal de realizar el control posterior, auditorías y determinar responsabilidades administrativas o culposas en los procesos de contratación pública?",
+            "opciones": [
+              "El Servicio Nacional de Contratación Pública (SERCOP)",
+              "La Contraloría General del Estado (CGE)",
+              "El Ministerio de Economía y Finanzas",
+              "La Asamblea Nacional"
+            ],
+            "respuesta_correcta": 1,
+            "guia": "Aunque el SERCOP regula y administra el sistema, la Contraloría General del Estado (CGE) es el organismo técnico superior de control encargado de auditar los procesos y sancionar mediante glosas, órdenes de reintegro o responsabilidades penales.",
+            "puntos": 15
+          },
+          {
+            "id": "B5-U5-Q07",
+            "tipo": "completar_espacios",
+            "dificultad": "dificil",
+            "pregunta": "Completa el concepto sobre el repositorio digital del SOCE:",
+            "texto": "El Módulo de ______ ______ es el repositorio digital donde se registran obligatoriamente los contratos firmados, las pólizas de garantías, los administradores asignados y las actas de entrega-recepción.",
+            "espacios": [
+              "Ejecucion",
+              "Contractual"
+            ],
+            "posiciones": [
+              0,
+              1
+            ],
+            "guia": "El Módulo de Ejecución Contractual centraliza toda la vida jurídica y operativa posterior a la firma del contrato, permitiendo a los entes de control fiscalizar el cumplimiento de las obligaciones del proveedor.",
+            "puntos": 20,
+            "pista": "Empieza con E... C..."
+          },
+          {
+            "id": "B5-U5-Q08",
+            "tipo": "texto_libre",
+            "dificultad": "dificil",
+            "pregunta": "SIMULADOR FINAL: Un contrato de consultoría por $100,000 contempla un anticipo del 50%. ¿Por qué monto EXACTO en dólares debe presentar el consultor la respectiva Póliza de Garantía por Anticipo para la suscripción del contrato?",
+            "respuesta_correcta": "50000",
+            "respuestas_aceptadas": [
+              "50000",
+              "50.000",
+              "$50000",
+              "50,000"
+            ],
+            "guia": "Art. 75 de la LOSNCP: La garantía por anticipo cubre el 100% del valor entregado. Cálculo: $100,000 * 0.50 = $50,000.",
+            "puntos": 25,
+            "tolerancia_tipeo": true,
+            "pista": "Calcula el 50% de 100,000."
+          },
+          {
+            "id": "B5-U5-Q09",
+            "tipo": "seleccion_multiple",
+            "dificultad": "dificil",
+            "pregunta": "¿Qué información debe contener obligatoriamente el expediente físico y digital de contratación que archiva la entidad pública tras finalizar un proceso? (Selecciona TODAS las correctas)",
+            "opciones": [
+              "La certificación presupuestaria y el PAC aprobado",
+              "El estudio de mercado y los pliegos aprobados",
+              "Las ofertas presentadas, actas de calificación y convalidaciones",
+              "La resolución de adjudicación, el contrato firmado y sus respectivas garantías",
+              "Las actas de entrega-recepción provisional y/o definitiva y liquidación"
+            ],
+            "respuestas_correctas": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "guia": "El expediente es íntegro y debe contener absolutamente todas las etapas del ciclo: planificación, preparación, precontractual y contractual, conforme lo exige la normativa de archivo y control de la CGE.",
+            "puntos": 25
+          },
+          {
+            "id": "B5-U5-Q10",
+            "tipo": "seleccion_unica",
+            "dificultad": "facil",
+            "pregunta": "¡Felicitaciones por completar los 5 bloques! Al presentarse a rendir el examen oficial de certificación del SERCOP, ¿qué herramienta conceptual y normativa es tu mejor aliada?",
+            "opciones": [
+              "Confiar únicamente en la memoria a corto plazo sin revisar leyes.",
+              "Dominar la Ley Orgánica del Sistema Nacional de Contratación Pública (LOSNCP), su Reglamento y los umbrales de procedimientos.",
+              "Adivinar las preguntas basándose en la intuición de la práctica privada.",
+              "Ignorar los plazos de las garantías y multas."
+            ],
+            "respuesta_correcta": 1,
+            "guia": "La certificación del SERCOP exige rigor técnico y legal absoluto. Dominar la LOSNCP, el Reglamento General, las resoluciones y los casos prácticos matemáticos asegura el éxito en la evaluación oficial.",
+            "puntos": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -25,11 +25,14 @@ const App = (() => {
     { id: '5to_egb', label: '5to EGB', emoji: '🌿', desc: 'Subnivel Elemental · 10-11 años', available: false, file: null },
     { id: '6to_egb', label: '6to EGB', emoji: '🌳', desc: 'Subnivel Medio · 11-12 años', available: false, file: null },
     { id: '7mo_egb', label: '7mo EGB', emoji: '⚡', desc: 'Subnivel Medio · 12-13 años', available: false, file: null },
-    { id: 'bachillerato', label: 'Bachillerato', emoji: '🎓', desc: 'Ingreso BGU · 14-15 años', available: false, file: null }
+    { id: 'bachillerato', label: 'Bachillerato', emoji: '🎓', desc: 'Ingreso BGU · 14-15 años', available: false, file: null },
+    { id: 'sercop', label: 'Sercop', emoji: '🎓', desc: 'Servicio de Compras Públicas', available: false, file: 'sercop.json' }
   ];
 
   // ─── INIT ─────────────────────────────────────────────────────────────
   async function init() {
+    // Bind all header button events first
+    bindEvents();
     // Simulate loading progress
     await sleep(2800);
 
@@ -600,11 +603,6 @@ const App = (() => {
 // ─── BOOTSTRAP ────────────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
   App.init();
-  // Bind header buttons after DOM is ready
-  setTimeout(() => {
-    const statsBtn = document.getElementById('btn-stats');
-    if (statsBtn) statsBtn.addEventListener('click', App.openStats);
-  }, 100);
 
   // Inject SVG gradient
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
